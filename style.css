@@ -1464,6 +1464,15 @@ li.comment {
 	border-bottom: none;
 }
 
+
+/* # LISTEN TO THE WIND MEDIA CHANGES
+---------------------------------------------------------------------------------------------------- */
+
+.lwm_cta_leftside {width: 40%; margin-left: 5%; display: inline-block;}
+
+.lwm_cta_rightside {width: 40%; margin-left: 5%; display: inline-block;}
+
+.site-container {background-color: #fff;}
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
