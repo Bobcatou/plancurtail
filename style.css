@@ -1479,8 +1479,19 @@ li.comment {
 .lwm_cta_block {
     border-bottom: 1px solid #999; 
     margin-bottom: 30px;
+}
+.wrap #genesis-footer-widgets.footer-widgets {padding: 0px 50px;}
 
-.footer-widgets .wrap {padding 0px 50px;}
+
+
+.lwm_fill {
+    height: 300px;
+    background-color: #999;
+    padding: 30px;
+    margin: 30px;
+}
+
+
 
 
 /* # Media Queries
