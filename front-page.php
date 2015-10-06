@@ -24,6 +24,16 @@ add_action( 'genesis_before_content', 'lwm_cta', 15 );
 }
 
 
+//* Filler to reserve
+add_action('genesis_before_content', 'lwm_temp', 15);
+	function lwm_temp () {
+	echo '<div class="lwm_fill">';			
+	echo '<h2>Space for Main Category pages and Blog</h2>';
+	echo '</div>'; 
+}
+
+
+
 
 //* Run the Genesis loop
 genesis();
