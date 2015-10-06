@@ -1476,6 +1476,13 @@ li.comment {
 .nav-secondary {border-top: 1px solid #333; border-bottom: 1px solid #333;}
 
 
+.lwm_cta_block {
+    border-bottom: 1px solid #999; 
+    margin-bottom: 30px;
+
+.footer-widgets .wrap {padding 0px 50px;}
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
