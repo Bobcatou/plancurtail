@@ -124,6 +124,17 @@ function howdy_message($translated_text, $text, $domain) {
 add_filter('gettext', 'howdy_message', 10, 3);
 
 
+
+//* Customize search form input box text
+add_filter( 'genesis_search_text', 'sp_search_text' );
+function sp_search_text( $text ) {
+	return esc_attr( 'Search Plancurtail' );
+}
+
+
+
+
+
 //* CTA Widget section
 
 //* 1st Column
