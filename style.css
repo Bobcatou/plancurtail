@@ -1497,6 +1497,13 @@ li.comment {
 .footer-widgets .wrap {padding: 0px 75px;}
 
 
+
+/* # CTA Slogan 
+------------------ */
+.slogan {text-align: center; margin: 20px 0px;}
+.slogan h2 {font-size: 46px;}
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
