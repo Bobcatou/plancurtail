@@ -46,7 +46,7 @@ add_action('genesis_before_content', 'lwm_temp', 15);
 
 //* Featured Post and Blog Section
 add_action( 'genesis_before_content', 'lwm_featured_post_blog', 15 );
-	function featured_post_blog() {
+	function lwm_featured_post_blog() {
 	echo '<div class="lwm_feature_blog block">';
 	echo '<div class="wrap feature_blog_widgets">';
 		genesis_widget_area( 'lwm_fpb_column_1', array(
