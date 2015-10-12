@@ -132,21 +132,32 @@ function sp_search_text( $text ) {
 }
 
 
-
-
-
-//* CTA Widget section
+//* Featured Category and Blog Section
 
 //* 1st Column
 genesis_register_sidebar( array(
-	'id'            => 'lwm_cta_left',
-	'name'          => __( 'CTA - Left Side', 'plancurtail' ),
-	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
+	'id'            => 'lwm_fpb_column_1',
+	'name'          => __( 'Feature Post - Housing', 'plancurtail' ),
+	'description'   => __( 'Section for Featured Housing Links', 'plancurtail' ),
 ) );
 //* 2nd Column
 genesis_register_sidebar( array(
-	'id'            => 'lwm_cta_right',
-	'name'          => __( 'CTA - Right Side', 'plancurtail' ),
-	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
+	'id'            => 'lwm_fpb_column_2',
+	'name'          => __( 'Featured Post - Food', 'plancurtail' ),
+	'description'   => __( 'Section for Featured Food Links', 'plancurtail' ),
 ) );
+
+//* 3rd Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_fpb_column_3',
+	'name'          => __( 'Featured Post - Cars', 'plancurtail' ),
+	'description'   => __( 'Section for Featured Cars Links', 'plancurtail' ),
+) );
+//* 4th Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_fpb_column_4',
+	'name'          => __( 'Featured Post - Blog', 'plancurtail' ),
+	'description'   => __( 'Section for Blog', 'plancurtail' ),
+) );
+
 
