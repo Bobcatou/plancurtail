@@ -132,6 +132,25 @@ function sp_search_text( $text ) {
 }
 
 
+
+//* CTA Widget section
+
+//* 1st Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_cta_left',
+	'name'          => __( 'CTA - Left Side', 'plancurtail' ),
+	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
+) );
+//* 2nd Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_cta_right',
+	'name'          => __( 'CTA - Right Side', 'plancurtail' ),
+	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
+) );
+
+
+
+
 //* Featured Category and Blog Section
 
 //* 1st Column
