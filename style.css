@@ -1512,6 +1512,54 @@ li.comment {
 .lwm_feat_blog_1, .lwm_feat_blog_2, .lwm_feat_blog_3, .lwm_feat_blog_4 {width: 20%; display: inline-block; margin-left: 5%;}
 
 
+
+/* Search Button Magnifying Glass styling
+---------------------------------- */
+
+
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
+input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
+
+.search-form {
+	position: relative;
+}
+
+.search-form input[type="submit"] {
+	position: absolute;
+	display: inline-block;
+	font-family: FontAwesome;
+	vertical-align: top;
+	clip: inherit;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	color: #999;
+	right: 10px;
+	top: 18px;
+}
+
+.search-form input[type="submit"]:hover {
+	color: #F15123;
+}
+
+.search-form input[type="submit"]:focus {
+	color: #999;
+	padding: 0;
+	box-shadow: none;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+
+
+
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
