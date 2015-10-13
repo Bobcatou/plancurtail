@@ -54,7 +54,7 @@ add_action( 'genesis_before_content', 'lwm_featured_post_blog', 15 );
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_fpb_column_2', array(
-			'before' => '<div class="lwm_cfeat_blog_2">',
+			'before' => '<div class="lwm_feat_blog_2">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_fpb_column_3', array(
@@ -62,7 +62,7 @@ add_action( 'genesis_before_content', 'lwm_featured_post_blog', 15 );
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_fpb_column_4', array(
-			'before' => '<div class="lwm_feat_blog_1">',
+			'before' => '<div class="lwm_feat_blog_4">',
 			'after' => '</div>',
 	) );
 	echo '</div>';
