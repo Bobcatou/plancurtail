@@ -36,13 +36,6 @@ add_action( 'genesis_before_content', 'lwm_cta', 15 );
 }
 
 
-//* Filler to reserve area
-add_action('genesis_before_content', 'lwm_temp', 15);
-	function lwm_temp () {
-	echo '<div class="lwm_fill">';			
-	echo '<h2>Space for Main Category page links and Blog</h2>';
-	echo '</div>'; 
-}
 
 //* Featured Post and Blog Section
 add_action( 'genesis_before_content', 'lwm_featured_post_blog', 15 );
