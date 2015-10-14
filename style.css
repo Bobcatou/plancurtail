@@ -1476,15 +1476,6 @@ li.comment {
 
 
 
-/*.lwm_fill {
-    height: 300px;
-    background-color: #999;
-    padding: 30px;
-    margin: 30px;
-}
-*/
-.lwm_fill h2 {text-align: center;}
-
 
 .footer-widgets .wrap {padding: 0px 75px;}
 
@@ -1500,14 +1491,18 @@ li.comment {
 .slogan {text-align: center; margin: 20px 0px;}
 .slogan h2 {font-size: 46px;}
 
-.lwm_cta_leftside {width: 40%; margin-left: 5%; display: inline-block;}
-
-.lwm_cta_rightside {width: 40%; margin-left: 5%; display: inline-block;}
 
 
+/* # White Paper Content Template
+---------------------------------------- */
+.paper-writer h3 {
+    margin-top: 15px;
+}
 
-
-
+.paper-writer h3 {
+    margin-bottom: 5px;
+}
+.paper-desc {margin: 10px 0px 0px;}
 
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
