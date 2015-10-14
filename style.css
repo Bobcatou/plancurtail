@@ -1519,6 +1519,7 @@ li.comment {
 	text-align: center;
 }
 
+.graphic-copy {display: table-cell; vertical-align: middle; height: 584px;}
 
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
