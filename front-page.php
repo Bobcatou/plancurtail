@@ -24,11 +24,11 @@ add_action( 'genesis_before_content', 'lwm_cta', 15 );
 	echo '<div class="lwm_cta_block">';
 	echo '<div class="wrap cta_widgets">';
 		genesis_widget_area( 'lwm_cta_left', array(
-			'before' => '<div class="lwm_cta_leftside">',
+			'before' => '<div class="lwm_cta_left one-half first">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_cta_right', array(
-			'before' => '<div class="lwm_cta_rightside">',
+			'before' => '<div class="lwm_cta_right one-half">',
 			'after' => '</div>',
 	) );
 	echo '</div>';
