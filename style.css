@@ -1504,11 +1504,24 @@ li.comment {
 }
 .paper-desc {margin: 10px 0px 0px;}
 
+/* # White Paper Content Template
+---------------------------------------- */
+.feature_blog_widgets h3 a {
+	text-decoration: none;
+}
+
+.feature_blog_widgets h3 {
+	font-size: 1em;
+}
+
+.feature_blog_widgets h3.widgettitle.widget-title {
+	font-size: 2em;
+	text-align: center;
+}
+
+
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
-
-
-
 input:focus::-webkit-input-placeholder { color:transparent; }
 input:focus:-moz-placeholder { color:transparent; } /* Firefox 18- */
 input:focus::-moz-placeholder { color:transparent; } /* Firefox 19+ */
