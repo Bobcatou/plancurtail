@@ -1518,6 +1518,7 @@ li.comment {
 .feature_blog_widgets h3.widgettitle.widget-title {
 	font-size: 2em;
 	text-align: center;
+	font-weight: 100;
 }
 
 .feature_blog_widgets {
