@@ -1467,17 +1467,19 @@ li.comment {
 /* # LISTEN TO THE WIND MEDIA CHANGES
 ---------------------------------------------------------------------------------------------------- */
 
+/* # General
+------------------ */
+
 .site-container {background-color: #fff;}
+
+
+/* # Menus
+------------------ */
 
 .nav-secondary {border-top: 1px solid #333; border-bottom: 1px solid #333;}
 
 
-.wrap #genesis-footer-widgets.footer-widgets {padding: 0px 50px;}
 
-
-
-
-.footer-widgets .wrap {padding: 0px 75px;}
 
 
 
@@ -1526,6 +1528,18 @@ li.comment {
 	border-bottom: 1px solid #333;
 	padding-bottom: 50px;
 }
+
+
+/* # Footer Area 
+------------------ */
+.wrap #genesis-footer-widgets.footer-widgets {padding: 0px 50px;}
+.footer-widgets .wrap {padding: 0px 75px;}
+.footer-widgets-3.widget-area {
+    text-align: center;
+}
+
+
+
 
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
