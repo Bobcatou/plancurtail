@@ -962,7 +962,6 @@ img.alignright,
 .title-area {
 	float: left;
 	padding: 10px 0;
-	margin-left: 45px;
 	/*width: 360px;*/
 }
 
@@ -986,6 +985,7 @@ img.alignright,
 .site-title a img {
 	vertical-align: top;
 	border-radius: 10px;
+	margin-left: 45px;
 }
 
 /*.header-image .site-title > a {
