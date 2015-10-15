@@ -962,6 +962,7 @@ img.alignright,
 .title-area {
 	float: left;
 	padding: 10px 0;
+	margin-left: 45px;
 	/*width: 360px;*/
 }
 
