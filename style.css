@@ -1507,6 +1507,10 @@ li.comment {
 }
 .paper-desc {margin: 10px 0px 0px;}
 
+.date-publication {
+    margin-top: 10px;
+}
+
 /* # Feature and Blog Area
 ---------------------------------------- */
 .feature_blog_widgets h3 a {
