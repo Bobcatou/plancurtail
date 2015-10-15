@@ -1588,7 +1588,38 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 
 
 
+/* Font Awesome Test
+---------------------------------- */
 
+.nav-secondary li a:before {
+	font-family: FontAwesome;
+	padding-right: 7px;
+	/*font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;*/
+}
+
+/* Housing menu item */
+#menu-item-75 a:before {
+	content: "\f015";
+}
+
+/* Food menu item */
+#menu-item-74 a:before {
+	content: "\f0f5";
+}
+/* Food menu item */
+#menu-item-71 a:before {
+	content: "\f1b9";
+}
+/* Climate menu item */
+#menu-item-72 a:before {
+	content: "\f185";
+}
+/* Cuba menu item */
+#menu-item-73 a:before {
+	content: "\f024";
+}
 
 
 
