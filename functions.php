@@ -148,6 +148,16 @@ function sk_search_button_text( $text ) {
 
 }
 
+//* Remove Post Info, Post Meta from Custom Post Types
+add_action ( 'get_header', 'rv_cpt_remove_post_info_genesis' );
+function rv_cpt_remove_post_info_genesis() {
+	if ( 'post' !== get_post_type() ) {
+		remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+	}
+}
+
+
 
 /**********************************
  ** WiDGET SECTION BELOW
