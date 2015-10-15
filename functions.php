@@ -125,6 +125,7 @@ add_filter('gettext', 'howdy_message', 10, 3);
 
 
 
+
 //* Customize search form input box text
 add_filter( 'genesis_search_text', 'sp_search_text' );
 function sp_search_text( $text ) {
@@ -139,7 +140,7 @@ function enqueue_font_awesome() {
 
 }
 
-// Customize search form input button text
+// Customize search form input button text (adds magnfying glass)
 add_filter( 'genesis_search_button_text', 'sk_search_button_text' );
 function sk_search_button_text( $text ) {
 
