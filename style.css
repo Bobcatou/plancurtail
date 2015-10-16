@@ -954,7 +954,7 @@ img.alignright,
 }
 
 .site-header .wrap {
-	padding: 20px 0px 0px;
+	padding: 10px 0px 0px;
 }
 
 /* ## Title Area
@@ -1573,7 +1573,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	background: transparent;
 	color: #999;
 	right: 10px;
-	top: 18px;
+	top: 12px;
 }
 
 .search-form input[type="submit"]:hover {
