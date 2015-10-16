@@ -166,6 +166,25 @@ function rv_cpt_remove_post_info_genesis() {
  ** WiDGET SECTION BELOW
 ************************************/
 
+//* New CTA/Donate Section
+
+//* 1st Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_donate_column_1',
+	'name'          => __( 'CTA/Donate Area - First Third', 'plancurtail' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+) );
+//* 2nd Column
+genesis_register_sidebar( array(
+	'id'            => 'lwm_donate_column_2',
+	'name'          => __( 'CTA/Donate Area - Second Third', 'plancurtail' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+) );
+genesis_register_sidebar( array(
+	'id'            => 'lwm_donate_column_3',
+	'name'          => __( 'CTA/Donate Area - Third Third', 'plancurtail' ),
+	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+) );
 
 
 
@@ -214,7 +233,6 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Featured Post - Blog', 'plancurtail' ),
 	'description'   => __( 'Section for Blog', 'plancurtail' ),
 ) );
-
 
 
 
