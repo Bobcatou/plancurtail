@@ -1506,6 +1506,17 @@ li.comment {
 .graphic-copy2 {
     line-height: 2.2rem;
 }
+
+
+
+.lwm_donate3 {
+    padding-top: 30px;
+}
+
+.lwm_donate3 h3.widgettitle.widget-title {
+	text-align: center;
+	font-size: 3rem;
+}
 	
 	
 /* # CTA Area 
