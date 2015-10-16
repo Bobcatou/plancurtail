@@ -25,7 +25,7 @@ add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
 	function lwm_cta_donate() {
 	echo '<div class="lwm_cta_donate_area block">';
 	echo '<div class="wrap cta_donate_widgets">';
-	echo '<div class="cta_wrap">';
+	echo '<div class="slogan">';
 	echo '<h2>Put Phrase to Get Attention Here</h2>';
 			genesis_widget_area( 'lwm_donate_column_1', array(
 			'before' => '<div class="lwm_donate1 one-third first">',
