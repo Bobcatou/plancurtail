@@ -30,7 +30,7 @@ add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_donate_column_2', array(
-			'before' => '<div class="lwm_donate3 one-third">',
+			'before' => '<div class="lwm_donate2 one-third">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_donate_column_3', array(
