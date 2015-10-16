@@ -26,7 +26,7 @@ add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
 	echo '<div class="lwm_cta_donate_area block">';
 	echo '<div class="wrap cta_donate_widgets">';
 			genesis_widget_area( 'lwm_donate_column_1', array(
-			'before' => '<div class="lwm_donate1 one-thirds first">',
+			'before' => '<div class="lwm_donate1 one-third first">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_donate_column_2', array(
