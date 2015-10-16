@@ -733,8 +733,9 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 --------------------------------------------- */
 
 .archive-title {
-	font-size: 20px;
-	font-size: 2rem;
+	font-size: 45px;
+	font-size: 4.5rem;
+	text-align: center;
 }
 
 .entry-title {
