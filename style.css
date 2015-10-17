@@ -1564,7 +1564,7 @@ li.comment {
 
 .feature_blog_widgets h3.widgettitle.widget-title {
 	font-size: 2em;
-	text-align: center;
+	text-align: left;
 	font-weight: 100;
 }
 
@@ -1573,6 +1573,8 @@ li.comment {
 	border-bottom: 1px solid #333;
 	padding-bottom: 50px;
 }
+
+
 
 
 /* # Footer Area 
@@ -1700,6 +1702,15 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	color: #00662b;
 	
 }
+
+.feature_blog_widgets h3 a:before {
+font-family: FontAwesome;
+	padding-right: 7px;
+	content: "\f06c";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	}
 
 
 
