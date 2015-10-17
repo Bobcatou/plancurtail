@@ -1674,13 +1674,14 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	
 }
 
-/* Housing Featured  */
+/* Housing Featured Title  */
 .lwm_feat_blog1 .widget-title:before {
 	font-family: FontAwesome;
 	padding-right: 10px;
 	content: "\f015";
 	color: #00662b;
 }
+/*Food Featured Title*/
 .lwm_feat_blog2 .widget-title:before {
 	font-family: FontAwesome;
 	padding-right: 10px;
@@ -1688,6 +1689,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	color: #00662b;
 
 }
+/*Cars Featured Title*/
+ Featured Title*/
 .lwm_feat_blog3 .widget-title:before {
 	font-family: FontAwesome;
 	padding-right: 10px;
@@ -1695,6 +1698,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	color: #00662b;
 
 }
+/*Blog Title*/
 .lwm_feat_blog4 .widget-title:before {
 	font-family: FontAwesome;
 	padding-right: 10px;
@@ -1703,6 +1707,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	
 }
 
+/*Article Titles*/
 .feature_blog_widgets h3 a:before {
 font-family: FontAwesome;
 	padding-right: 7px;
