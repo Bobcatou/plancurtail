@@ -1592,9 +1592,13 @@ li.comment {
 
 }
 
+main#genesis-content.content h2 {
+	padding-top: 20px;
+}
 
-m
-
+.footer-widgets {
+	padding-top: 30px;
+}
 
 /* Sidebar styling
 ---------------------------------- */
