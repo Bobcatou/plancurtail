@@ -1592,6 +1592,18 @@ li.comment {
 }
 
 
+
+
+/* Sidebar styling
+---------------------------------- */
+
+/*image widget styling (centers text under image) */
+.widget_sp_image-description {
+    text-align: center;
+}
+
+
+
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
 input:focus::-webkit-input-placeholder { color:transparent; }
