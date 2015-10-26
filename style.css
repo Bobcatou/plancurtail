@@ -1575,8 +1575,12 @@ li.comment {
 	padding-bottom: 50px;
 }
 
+/* # About Us Page
+------------------ */
 
-
+#lwm_aboutUs .three-fourths {
+	margin-top: -7px;
+}
 
 /* # Footer Area 
 ------------------ */
