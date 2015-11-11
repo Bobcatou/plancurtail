@@ -1491,12 +1491,17 @@ li.comment {
 	margin-top: 15px;
 }
 
-.slogan h2 {
+.slogan h2, .lwm_donate3 h3.widgettitle.widget-title {
     text-align: center;
     padding-top: 20px;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     font-weight: 800;
 }
+
+.lwm_donate3 h3.widgettitle.widget-title {
+	margin: 15px 0px 10px 0px;
+}
+
 
 .graphic-copy2 {
     line-height: 2.2rem;
@@ -1508,11 +1513,7 @@ li.comment {
     padding-top: 0px;
 }
 
-.lwm_donate3 h3.widgettitle.widget-title {
-	text-align: center;
-	font-size: 1.9rem;
-	font-weight: 800;
-}
+
 	
 
 .lwm_donate3 img {
