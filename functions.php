@@ -228,11 +228,11 @@ genesis_register_sidebar( array(
 	'description'   => __( 'Section for Featured Cars Links', 'plancurtail' ),
 ) );
 //* 4th Column
-genesis_register_sidebar( array(
-	'id'            => 'lwm_fpb_column_4',
-	'name'          => __( 'Featured Post - Blog', 'plancurtail' ),
-	'description'   => __( 'Section for Blog', 'plancurtail' ),
-) );
+//genesis_register_sidebar( array(
+//	'id'            => 'lwm_fpb_column_4',
+//	'name'          => __( 'Featured Post - Blog', 'plancurtail' ),
+//	'description'   => __( 'Section for Blog', 'plancurtail' ),
+//) );
 
 
 
