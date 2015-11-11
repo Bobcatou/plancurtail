@@ -70,7 +70,7 @@ function custom_header_inline_logo( $title, $inside, $wrap ) {
 }
 
 // Remove the site description
-remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+//remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 // Enqueue scripts and styles
 add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
