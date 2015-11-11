@@ -76,15 +76,15 @@ add_action( 'genesis_before_content', 'lwm_featured_post_blog', 15 );
 	echo '<div class="lwm_feature_blog block">';
 	echo '<div class="wrap feature_blog_widgets">';
 		genesis_widget_area( 'lwm_fpb_column_1', array(
-			'before' => '<div class="lwm_feat_blog1 one-fourth first">',
+			'before' => '<div class="lwm_feat_blog1 one-third first">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_fpb_column_2', array(
-			'before' => '<div class="lwm_feat_blog2 one-fourth">',
+			'before' => '<div class="lwm_feat_blog2 one-third">',
 			'after' => '</div>',
 	) );
 			genesis_widget_area( 'lwm_fpb_column_3', array(
-			'before' => '<div class="lwm_feat_blog3 one-fourth">',
+			'before' => '<div class="lwm_feat_blog3 one-third">',
 			'after' => '</div>',
 	) );
 //			genesis_widget_area( 'lwm_fpb_column_4', array(
