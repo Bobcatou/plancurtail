@@ -29,7 +29,7 @@ add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
  function lwm_cta_donate() {
  echo '<div class="lwm_cta_donate_area block wrap">';
  echo '<div class="slogan three-fourths first">';
- echo '<h2>Put Phrase to Get Attention Here</h2>';
+ echo "<h2>Annual C02 Emissions on a Worldwide Basis - 34 Nations with 80% of the Worlds Population</h2>";
    genesis_widget_area( 'lwm_donate_column_1', array(
    'before' => '<div class="lwm_donate1 one-half first">',
    'after' => '</div>',
