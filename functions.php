@@ -163,7 +163,7 @@ function rv_cpt_remove_post_info_genesis() {
 
 
 //* Show custom menu in Footer
-add_action( 'genesis_footer', 'sk_custom_menu_in_footer' );
+add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
 function sk_custom_menu_in_footer() {
 
 	$class = 'menu genesis-nav-menu menu-footer';
