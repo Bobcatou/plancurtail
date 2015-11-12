@@ -1706,9 +1706,13 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 .site-footer .nav-footer a {
 	border-bottom: none;
 	padding: 2.8rem 2.4rem 0 2.4rem;
+	
 }
 
-
+ul#menu-footer-menu {
+    margin-bottom: 20px;
+    border-top: 1px solid #333;
+}
 
 
 
