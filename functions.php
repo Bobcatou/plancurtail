@@ -162,6 +162,44 @@ function rv_cpt_remove_post_info_genesis() {
 
 
 
+//* Show custom menu in Footer
+add_action( 'genesis_footer', 'sk_custom_menu_in_footer' );
+function sk_custom_menu_in_footer() {
+
+	$class = 'menu genesis-nav-menu menu-footer';
+
+	$args = array(
+		'menu'           => 'Footer Menu', // Enter name of your custom menu here
+		'container'      => '',
+		'menu_class'     => $class,
+		'echo'           => 0,
+		'depth'           => 1,
+	);
+
+	$nav = wp_nav_menu( $args );
+
+	$nav_markup_open = genesis_markup( array(
+		'html5'   => '<nav %s>',
+		'xhtml'   => '<div id="nav">',
+		'context' => 'nav-footer',
+		'echo'    => false,
+	) );
+	$nav_markup_open .= genesis_structural_wrap( 'menu-footer', 'open', 0 );
+
+	$nav_markup_close  = genesis_structural_wrap( 'menu-footer', 'close', 0 );
+	$nav_markup_close .= genesis_html5() ? '</nav>' : '</div>';
+
+	$nav_output = $nav_markup_open . $nav . $nav_markup_close;
+
+	echo $nav_output;
+
+}
+
+
+
+
+
+
 /**********************************
  ** WiDGET SECTION BELOW
 ************************************/
@@ -214,14 +252,14 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Featured Area - Housing', 'plancurtail' ),
 	'description'   => __( 'Section for Featured Housing Article', 'plancurtail' ),
 ) );
-//* 3rd Column
+//* 2nd Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_fpb_column_2',
 	'name'          => __( 'Featured Area - Cars', 'plancurtail' ),
 	'description'   => __( 'Section for Featured Cars Article', 'plancurtail' ),
 ) );
 
-//* 2nd Column
+//* 3rd Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_fpb_column_3',
 	'name'          => __( 'Featured Area - Food', 'plancurtail' ),
