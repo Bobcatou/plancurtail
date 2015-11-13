@@ -1000,6 +1000,11 @@ img.alignright,
 	font-size: 1.6rem;
 	font-weight: 300;
 	line-height: 1.5;
+	width: 300px;
+	background: #00662b;
+	color: #fff;
+	padding: 5px 10px;
+	border-top: #fff 1px solid;
 }
 
 .site-description,
