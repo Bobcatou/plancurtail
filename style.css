@@ -703,7 +703,7 @@ th {
 
 .site-header .search-form {
 	float: right;
-	margin-top: 12px;
+	margin-top: 49px;
 	width: 288px;
 }
 
@@ -997,9 +997,9 @@ img.alignright,
 
 .site-description {
 	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	font-weight: 300;
-	line-height: 1.5;
+	line-height: 1.4;
 	width: 300px;
 	background: #00662b;
 	color: #fff;
@@ -1484,6 +1484,10 @@ li.comment {
 ------------------ */
 
 .nav-secondary {border-top: 1px solid #333; border-bottom: 1px solid #333;}
+
+nav.nav-header {
+    margin-top: 98px;
+}
 
 /* # NewCTA/DONATE Area 
 ------------------ */
