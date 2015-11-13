@@ -208,6 +208,25 @@ echo '</p></div>';
 
 
 
+/**
+* Change the site description (also called tagline)
+* to include html code.
+* Remove description, add whatever change you want to make.
+* Then add description back to header.
+*
+* @author Terry Collins
+* @since 1.0.0
+*/
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+add_action( 'genesis_site_description', 'child_seo_site_description' );
+
+function child_seo_site_description() {
+
+echo '<h2 class="site-description">Our Mission: <em>To motivate and aid people in reducing their energy use and C0<sub>2</sub> emissions</em></h2>';
+
+}
+
+
 /**********************************
  ** WiDGET SECTION BELOW
 ************************************/
