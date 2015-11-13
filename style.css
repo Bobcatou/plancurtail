@@ -1553,24 +1553,24 @@ li.comment {
 ---------------------------------------- */
 .feature_blog_widgets h3 a {
 	text-decoration: none;
+	color: #333;
+}
+
+.feature_blog_widgets h3 a:hover {
+	color: #00662b;
 }
 
 .feature_blog_widgets h3 {
-	font-size: .9em;
-}
-
-.feature_blog_widgets h3.widgettitle.widget-title {
 	font-size: 1.2em;
 	text-align: center;
 	font-weight: 700;
 	border-bottom: 1px #333 solid;
 	padding-bottom: 15px;
 	padding-top: 15px;
+	min-height: 83px;
 }
 
-#black-studio-tinymce-11 h3 {
-	padding-bottom: 40px;
-}
+
 
 .feature_blog_widgets {
 	margin-bottom: 50px;
