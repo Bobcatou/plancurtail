@@ -1820,6 +1820,7 @@ ul#menu-footer-menu {
 
 h2.site-description {
     margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -1982,6 +1983,32 @@ h2.site-description {
 	}
 
 }
+
+
+@media only screen and (min-width: 320px) {
+
+/*lwm menu adjustment*/
+nav.nav-header {
+	margin-top: 0px;
+}
+
+.genesis-nav-menu {
+    padding-bottom: 0;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 /* # Print Styles
 ---------------------------------------------------------------------------------------------------- */
