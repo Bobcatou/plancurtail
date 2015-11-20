@@ -28,9 +28,9 @@ remove_action( 'genesis_loop', 'genesis_do_loop' );
 add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
  function lwm_cta_donate() {
  echo '<div class="lwm_cta_donate_area block wrap">';
- echo "<h2>IT'S A QUESTION OF SURVIVAL</h2>";
  echo '<div class="slogan two-thirds first">';
- echo "<h2>Annual C02 Emissions on a Worldwide Basis - 34 Nations with 80% of the Worlds Population</h2>";
+ echo "<h2 class='survive'>IT'S A QUESTION OF SURVIVAL</h2>";
+ echo "<h2>Annual C02 Emissions Worldwide - 80% of World Population</h2>";
    genesis_widget_area( 'lwm_donate_column_1', array(
    'before' => '<div class="lwm_donate1 one-half first">',
    'after' => '</div>',
