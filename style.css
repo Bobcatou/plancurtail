@@ -1160,6 +1160,7 @@ img.alignright,
 
 .nav-primary {
 	background-color: #333;
+	text-align: right;
 }
 
 .nav-primary .genesis-nav-menu a {
