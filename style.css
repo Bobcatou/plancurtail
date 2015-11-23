@@ -1935,23 +1935,6 @@ ul#menu-footer-menu {
 }
 
 
-@media only screen and (min-width: 320px) {
-
-/*lwm menu adjustment*/
-nav.nav-header {
-	margin-top: 0px;
-}
-
-.genesis-nav-menu {
-    padding-bottom: 0;
-}
-
-
-
-
-}
-
-
 
 
 
