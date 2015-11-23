@@ -1049,7 +1049,7 @@ img.alignright,
 	color: #000;
 	text-decoration: none;
 	display: block;
-	padding: 30px 24px;
+	padding: 10px 8px;
 }
 
 .genesis-nav-menu a:hover,
@@ -1072,6 +1072,7 @@ img.alignright,
 	transition:         opacity .4s ease-in-out;
 	width: 200px;
 	z-index: 99;
+
 }
 
 .genesis-nav-menu .sub-menu a {
@@ -1166,6 +1167,7 @@ img.alignright,
 .nav-primary .genesis-nav-menu a {
 	color: #ccc;
 	text-decoration: none;
+	line-height: 30px;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
