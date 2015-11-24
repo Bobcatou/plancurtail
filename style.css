@@ -1025,6 +1025,7 @@ img.alignright,
 .site-header .widget-area {
 	float: right;
 	text-align: right;
+	margin-top: 20px;
 	/*width: 800px;*/
 }
 
@@ -1482,6 +1483,11 @@ li.comment {
 ------------------ */
 
 .site-container {background-color: #fff;}
+
+.site-description p {
+	margin-bottom: 0px;
+}
+
 
 
 /* # Menus
