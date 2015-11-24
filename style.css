@@ -1510,7 +1510,7 @@ nav.nav-header {
 }
 
 .slogan h2, .lwm_donate3 h3.widgettitle.widget-title {
-    text-align: center;
+    text-align: left;
     font-size: 2.2rem;
     font-weight: 800;
 }
