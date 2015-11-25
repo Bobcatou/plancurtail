@@ -1519,6 +1519,13 @@ h2.survive {margin: 10px 0 0 0;}
     margin-bottom: 2px;
 }
 
+section#black-studio-tinymce-6 img {
+    margin-bottom: 5px !important;
+}
+
+
+
+
 .lwm_donate3 h3.widgettitle.widget-title {
 	/*margin: 15px 0px 10px 0px;*/
 	margin-top: 10px;
