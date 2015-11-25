@@ -1510,7 +1510,7 @@ nav.nav-header {
 
 /*It's a matter of survival*/
 
-h2.survive {margin: 5px 0 0 0;}
+h2.survive {margin: 10px 0 0 0;}
 
 .slogan h2, .lwm_donate3 h3.widgettitle.widget-title {
     text-align: left;
@@ -1521,7 +1521,7 @@ h2.survive {margin: 5px 0 0 0;}
 
 .lwm_donate3 h3.widgettitle.widget-title {
 	/*margin: 15px 0px 10px 0px;*/
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 
@@ -1682,6 +1682,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 .site-footer .nav-footer a {
 	border-bottom: none;
 	padding: 2.8rem 2.4rem 0 2.4rem;
+	color: #000;
 	
 }
 
