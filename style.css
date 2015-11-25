@@ -367,7 +367,7 @@ textarea {
 	font-size: 1.5rem;
 	font-weight: 300;
 	padding: 0px 0px 0px 10px;
-	width: 57%;
+	width: 100%;
 }
 
 input:focus,
@@ -703,8 +703,8 @@ th {
 
 .site-header .search-form {
 	float: right;
-	margin-top: 49px;
-	width: 288px;
+	margin-top: 2px;
+	width: 171px;
 }
 
 .entry-content .search-form/*,
@@ -1675,7 +1675,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	background: transparent;
 	color: #999;
 	right: 10px;
-	top: 12px;
+	top: 1px;
 }
 
 .search-form input[type="submit"]:hover {
