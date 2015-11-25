@@ -1748,8 +1748,14 @@ ul#menu-footer-menu {
 	.title-area {
 	/*	width: 300px;*/
 		width: 250px;
-		
 	}
+	
+	.site-title a img {
+ 	   margin-top: 12px;
+}
+	
+		
+	
 
 }
 
