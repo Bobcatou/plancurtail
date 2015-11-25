@@ -1554,7 +1554,7 @@ section#black-studio-tinymce-6 img {
 ------------------ */
 .lwm_cta_block {
     border-bottom: 1px solid #999; 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 /*
 .cta_wrap .slogan {text-align: center; margin: 20px 0px;}
@@ -1595,8 +1595,8 @@ section#black-studio-tinymce-6 img {
 	font-weight: 700;
 	border-bottom: 1px #333 solid;
 	padding-bottom: 15px;
-	padding-top: 15px;
-	min-height: 83px;
+	padding-top: 5px;
+	min-height: 73px;
 	margin-bottom: 20px;
 }
 
