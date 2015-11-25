@@ -218,13 +218,13 @@ echo '</p></div>';
 * @since 1.0.0
 */
 remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
-//add_action( 'genesis_site_description', 'child_seo_site_description' );
+add_action( 'genesis_header', 'child_seo_site_description', 5 );
 
-//function child_seo_site_description() {
+function child_seo_site_description() {
 
-//echo '<h2 class="site-description">Our Mission: <em>To motivate and aid people in reducing their energy use and C0<sub>2</sub> emissions</em></h2>';
+echo '<h2 class="site-description">Our Mission: <em>To motivate and aid people in reducing their energy use and C0<sub>2</sub> emissions</em></h2>';
 
-//}
+}
 
 
 //* Adds Searchbox to Primary menu
