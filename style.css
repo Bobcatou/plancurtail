@@ -1725,7 +1725,7 @@ ul#menu-footer-menu {
 
 	.content,
 	.site-header .widget-area {
-		width: 620px;
+		/*width: 620px;*/
 	}
 
 	.sidebar-content-sidebar .content,
@@ -1736,7 +1736,9 @@ ul#menu-footer-menu {
 
 	.sidebar-primary,
 	.title-area {
-		width: 300px;
+	/*	width: 300px;*/
+		width: 250px;
+		
 	}
 
 }
