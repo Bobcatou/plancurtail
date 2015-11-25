@@ -1510,16 +1510,18 @@ nav.nav-header {
 
 /*It's a matter of survival*/
 
-h2.survive {margin: 0;}
+h2.survive {margin: 5px 0 0 0;}
 
 .slogan h2, .lwm_donate3 h3.widgettitle.widget-title {
     text-align: left;
     font-size: 2.2rem;
     font-weight: 800;
+    margin-bottom: 2px;
 }
 
 .lwm_donate3 h3.widgettitle.widget-title {
 	/*margin: 15px 0px 10px 0px;*/
+	margin-top: 5px;
 }
 
 
