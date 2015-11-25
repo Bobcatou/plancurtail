@@ -1753,7 +1753,10 @@ ul#menu-footer-menu {
 	.site-title a img {
  	   margin-top: 12px;
 }
-	
+
+.site-header .search-form {
+	margin-top: 13px;
+}	
 		
 	
 
