@@ -987,7 +987,7 @@ img.alignright,
 
 .site-title a img {
 	vertical-align: top;
-	margin-top: 7px;
+	margin-top: -2px;
 }
 
 /*.header-image .site-title > a {
