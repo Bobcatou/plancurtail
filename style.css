@@ -1510,14 +1510,24 @@ nav.nav-header {
 
 /*It's a matter of survival*/
 
-h2.survive {margin: 10px 0 0 0;}
 
-.slogan h2, .lwm_donate3 h3.widgettitle.widget-title {
+.slogan h2 {
     text-align: left;
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     font-weight: 800;
     margin-bottom: 2px;
 }
+
+h2.survive, .lwm_donate3 h3.widgettitle.widget-title {
+	margin: 10px 0 0 0;
+	font-size: 2.2rem;
+	text-align: left;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+
+
 
 section#black-studio-tinymce-6 img {
     margin-bottom: 5px !important;
