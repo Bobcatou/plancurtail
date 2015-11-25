@@ -229,7 +229,7 @@ echo '<h2 class="site-description">Our Mission: <em>To motivate and aid people i
 
 //* Adds Searchbox to Primary menu
 
-add_filter( 'wp_nav_menu_items', 'theme_menu_extras', 10, 2 );
+//add_filter( 'wp_nav_menu_items', 'theme_menu_extras', 10, 2 );
 /**
  * Filter menu items, appending either a search form or today's date.
  *
@@ -238,21 +238,21 @@ add_filter( 'wp_nav_menu_items', 'theme_menu_extras', 10, 2 );
  *
  * @return string Amended HTML string of list items.
  */
-function theme_menu_extras( $menu, $args ) {
+//function theme_menu_extras( $menu, $args ) {
 
 	//* Change 'primary' to 'secondary' to add extras to the secondary navigation menu
-	if ( 'primary' !== $args->theme_location )
-		return $menu;
+//	if ( 'primary' !== $args->theme_location )
+//		return $menu;
 
 	
-	ob_start();
-	get_search_form();
-	$search = ob_get_clean();
-	$menu  .= '<li class="right search">' . $search . '</li>';
+//	ob_start();
+//	get_search_form();
+//	$search = ob_get_clean();
+//	$menu  .= '<li class="right search">' . $search . '</li>';
 
-	return $menu;
+//	return $menu;
 
-}
+//}
 
 
 
