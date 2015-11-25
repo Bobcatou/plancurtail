@@ -1002,11 +1002,12 @@ img.alignright,
 	font-size: 1.5rem;
 	font-weight: 300;
 	line-height: 1.4;
-	width: 651px;
+	width: 56%;
 	background: #00662b;
 	color: #fff;
 	padding: 5px 10px;
 	border-top: #fff 1px solid;
+	text-align: center;
 }
 
 .site-description,
