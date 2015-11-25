@@ -1011,7 +1011,7 @@ img.alignright,
 
 .site-description,
 .site-title {
-	margin-bottom: 0;
+	margin: 0 auto;
 }
 
 .header-image .site-description,
