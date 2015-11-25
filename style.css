@@ -361,12 +361,12 @@ input,
 select,
 textarea {
 	background-color: #fff;
-	border: 1px solid #ddd;
+	border: 1px solid #00662b;
 	color: #333;
 	font-size: 15px;
 	font-size: 1.5rem;
 	font-weight: 300;
-	padding: 0px 0px 0px 10px;
+	padding: 5px 0px 5px 10px;
 	width: 100%;
 }
 
@@ -1675,7 +1675,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	background: transparent;
 	color: #999;
 	right: 10px;
-	top: 1px;
+	top: 6px;
 }
 
 .search-form input[type="submit"]:hover {
