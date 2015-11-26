@@ -1027,7 +1027,7 @@ img.alignright,
 	float: right;
 	text-align: right;
 	margin-top: 20px;
-	padding-right: 64px;
+	/*padding-right: 64px;*/
 	/*width: 800px;*/
 }
 
