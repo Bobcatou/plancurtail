@@ -703,7 +703,7 @@ th {
 
 .site-header .search-form {
 	float: right;
-	margin-top: 28px;
+	margin-top: 14px;
 	width: 171px;
 }
 
@@ -987,7 +987,7 @@ img.alignright,
 
 .site-title a img {
 	vertical-align: top;
-	margin-top: 27px;
+	margin-top: 13px;
 }
 
 /*.header-image .site-title > a {
