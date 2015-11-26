@@ -73,13 +73,12 @@ function custom_header_inline_logo( $title, $inside, $wrap ) {
 //remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 // Enqueue scripts and styles
-//add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
-//function custom_scripts_styles_mobile_responsive() {
+add_action( 'wp_enqueue_scripts', 'custom_scripts_styles_mobile_responsive' );
+function custom_scripts_styles_mobile_responsive() {
 
-//	wp_enqueue_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
-//	wp_enqueue_style( 'dashicons' );
-
-//}
+	wp_enqueue_script( 'responsive-menu', get_stylesheet_directory_uri() . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0', true );
+	wp_enqueue_style( 'dashicons' );
+}
 
 // Customize the previous page link
 add_filter ( 'genesis_prev_link_text' , 'sp_previous_page_link' );
