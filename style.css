@@ -1560,13 +1560,23 @@ section#black-studio-tinymce-6 img {
 	border-radius: 10px;
 }
 
+
+.lwm_cta_donate_area.block.wrap {
+	border-bottom: 1px solid #999; 
+    margin-bottom: 10px;
+
+}
+
+
+
 	
 /* # CTA Area 
 ------------------ */
-.lwm_cta_block {
+/*.lwm_cta_block {
     border-bottom: 1px solid #999; 
     margin-bottom: 10px;
 }
+*/
 /*
 .cta_wrap .slogan {text-align: center; margin: 20px 0px;}
 .cta_wrap .slogan h2 {font-size: 46px;}
