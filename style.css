@@ -1599,7 +1599,7 @@ section#black-studio-tinymce-6 img {
     margin-top: 10px;
 }
 
-/* # Feature and Blog Area
+/* # Category and Blog Area
 ---------------------------------------- */
 .feature_blog_widgets h3 a {
 	text-decoration: none;
@@ -1628,6 +1628,13 @@ section#black-studio-tinymce-6 img {
 	border-bottom: 1px solid #333;
 	padding-bottom: 20px;
 }
+
+
+#black-studio-tinymce-10 img,  #black-studio-tinymce-11 img {
+	margin-bottom: 0px;
+}
+
+
 
 /* # About Us Page
 ------------------ */
