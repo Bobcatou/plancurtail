@@ -1513,11 +1513,14 @@ nav.nav-header {
 /*It's a matter of survival*/
 
 
-.slogan h2, h2.first_step {
+h2.annual_co2, h2.first_step {
     text-align: left;
     font-size: 2.0rem;
     font-weight: 800;
     margin-bottom: 2px;
+    background: #00662b;
+    padding: 2px 0px 2px 5px;
+    color: #fff;
 }
 
 h2.survive {
