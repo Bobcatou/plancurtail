@@ -52,7 +52,7 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 add_filter( 'genesis_seo_title', 'custom_header_inline_logo', 10, 3 );
 function custom_header_inline_logo( $title, $inside, $wrap ) {
 
-	$logo = '<img src="' . get_stylesheet_directory_uri() . '/images/logo.png" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" title="' . esc_attr( get_bloginfo( 'name' ) ) . '" width="300" height="60" />';
+	$logo = '<img src="' . get_stylesheet_directory_uri() . '/images/logo.png" alt="' . esc_attr( get_bloginfo( 'name' ) ) . '" title="' . esc_attr( get_bloginfo( 'name' ) ) . '" width="359" height="72" />';
 
 	$inside = sprintf( '<a href="%s" title="%s">%s</a>', trailingslashit( home_url() ), esc_attr( get_bloginfo( 'name' ) ), $logo );
 
