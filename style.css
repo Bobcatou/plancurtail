@@ -1532,6 +1532,11 @@ h2.survive {
 
 
 
+.lwm_last_widget.one-third h2 {
+    text-align: right;
+}
+
+
 
 section#black-studio-tinymce-6 img {
     margin-bottom: 5px !important;
