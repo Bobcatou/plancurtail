@@ -1,0 +1,43 @@
+/**
+*Custom Styling for Login Page
+**/
+
+/* Change background color and font family */
+
+body {
+  background: #fff;
+ /* font-family: */
+}
+
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  background-image: url(logo.png);
+  width: 359px;
+  height: 72px;
+  background-size: 359px 72px;
+}
+
+#login {width: 359px;}
+
+
+/* Other changes to the color and style of form itself */
+/*******************
+.login label {
+  color: #;
+  display: block;
+  margin-bottom:  em;
+  font-weight: ;
+}
+ 
+.login form .input {
+  font-weight: ;
+}
+ 
+.login #backtoblog a, .login #nav a {
+  color: #;
+}
+ 
+.wp-core-ui .button-primary {
+  background: #;
+}
+*********************/
