@@ -114,33 +114,32 @@ add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
  * Listen to the Wind Media Changes
  *
 ************************************/
-
 /**
 *Custom Login Logo
 **/
-function my_login_logo() { ?>
-    <style type="text/css">
-        .login h1 a {
-            background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/logo.png);
-            padding-bottom: 30px;
-            background-size: 259px;
-			height: auto;
-			width: 259px;
-
-        }
-    </style>
-<?php }
-add_action( 'login_enqueue_scripts', 'my_login_logo' );
-
-function my_login_logo_url() {
-    return home_url();
+function my_loginlogo() {
+  echo '<style type="text/css">
+    h1 a {
+      background-image: url(' . get_stylesheet_directory_uri() . '/images/logo.png) !important;
+    }
+  </style>';
 }
-add_filter( 'login_headerurl', 'my_login_logo_url' );
+/**
+*Hover Title for Logo
+**/
+add_action('login_head', 'my_loginlogo');
 
-function my_login_logo_url_title() {
+function my_loginURLtext() {
     return 'Plan Curtail';
 }
-add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+add_filter('login_headertitle', 'my_loginURLtext');
+
+
+function my_logincustomCSSfile() {
+    wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/login_styles.css');
+}
+add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
+
 
 
 
