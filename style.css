@@ -1751,6 +1751,21 @@ ul#menu-footer-menu {
 	color: #00662b;
 }
 
+
+
+
+.login h1 a {
+    background-image: url(http://localhost/plancurtail.dev/wp-content/themes/plancurtail/images/logo.png) !important;
+    padding-bottom: 30px !important;
+    background-size: 259px !important;
+    height: auto !important;
+    width: 259px !important;
+}
+
+
+
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
