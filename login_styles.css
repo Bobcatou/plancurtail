@@ -17,7 +17,9 @@ body {
   background-size: 359px 72px;
 }
 
-#login {width: 359px;}
+#login {
+	width: 359px;
+	}
 
 
 /* Other changes to the color and style of form itself */
