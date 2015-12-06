@@ -141,6 +141,15 @@ function my_logincustomCSSfile() {
 add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
 
 
+/**
+*URL for custom logo
+**/
+function my_loginURL() {
+    return 'http://wpbryan.com/development/plancurtail';
+}
+add_filter('login_headerurl', 'my_loginURL');
+
+
 
 
 /**
