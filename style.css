@@ -1197,7 +1197,7 @@ img.alignright,
 --------------------------------------------- */
 
 .nav-secondary {
-	background-color: #333;
+	background-color: #047940;
 }
 
 /* # Content Area
@@ -1504,7 +1504,10 @@ li.comment {
 /* # Menus
 ------------------ */
 
-.nav-secondary {border-top: 1px solid #333; border-bottom: 1px solid #333;}
+.nav-secondary {
+/*	border-top: 1px solid #333; 
+	border-bottom: 1px solid #333;*/
+}
 
 nav.nav-header {
     margin-top: 98px;
