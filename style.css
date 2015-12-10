@@ -1528,24 +1528,25 @@ h2.annual_co2, h2.first_step {
     text-align: left;
     font-size: 2.0rem;
     font-weight: 800;
-    margin-bottom: 2px;
-    background: #047940;
-    padding: 2px 0px 2px 5px;
-    color: #fff;
+    padding-bottom: 8px;
+    color: #0076be;
 }
 
 h2.survive {
 	margin: 10px 0 0 0;
-	font-size: 2.2rem;
-    font-weight: 800;
+	font-size: 16px;
+	font-size: 1.6rem;
+    font-weight: 400;
     margin-bottom: 2px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+
 }
 
 
 
 .lwm_last_widget.one-third h2 {
-    text-align: right;
-    padding-right: 5px;
+    text-align: left;
 }
 
 
