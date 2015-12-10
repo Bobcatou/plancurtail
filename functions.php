@@ -16,8 +16,6 @@ function genesis_sample_google_fonts() {
 }
 
 
-
-
 // Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
