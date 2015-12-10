@@ -251,7 +251,7 @@ echo '</p></div>';
 * @author Terry Collins
 * @since 1.0.0
 */
-//remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
+remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 //add_action( 'genesis_before_header', 'child_seo_site_description', 5 );
 
 //function child_seo_site_description() {
