@@ -1170,7 +1170,7 @@ img.alignright,
 }
 
 .nav-primary .genesis-nav-menu a {
-	color: #000;
+	color: #515151;
 	text-decoration: none;
 	line-height: 15px;
 }
@@ -1178,7 +1178,7 @@ img.alignright,
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu a:focus,
 .nav-primary .genesis-nav-menu .current-menu-item > a {
-	color: #000;
+	color: #515151;
 	text-decoration: underline;
 }
 
