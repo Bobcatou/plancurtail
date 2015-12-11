@@ -140,19 +140,22 @@ html {
 
 /* Chrome fix */
 body > div {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 body {
 	background-color: #f5f5f5;
 	color: #515151;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	font-size: 1.5rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 1.3;
+	line-height: 1.4;
 	margin: 0;
 }
+
+
+
 
 a,
 button,
@@ -704,7 +707,6 @@ th {
 
 .site-header .search-form {
 	float: right;
-	margin-top: 14px;
 	width: 171px;
 }
 
@@ -1001,14 +1003,13 @@ img.alignright,
 
 .site-description {
 	font-size: 30px;
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: 300;
 	line-height: 1;
 	width: 60%;
 	color: #047940;;
 	padding: 5px 10px;
-	text-align: center;
-	float: left;
+	float: right;
 }
 
 .site-description,
@@ -1499,6 +1500,18 @@ li.comment {
 	margin-bottom: 0px;
 }
 
+/* # Header
+------------------ */
+
+section#black-studio-tinymce-17 {
+	float: right;
+	margin-left: 4px;
+}
+
+section#black-studio-tinymce-17 img {
+	margin: 0 4px;
+}
+
 
 
 /* # Menus
@@ -1533,6 +1546,7 @@ h2.annual_co2, h2.first_step {
     color: #0076be;
 }
 
+/*
 h2.survive {
 	margin: 10px 0 0 0;
 	font-size: 1.9rem;
@@ -1544,6 +1558,22 @@ h2.survive {
     line-height: 21px;
 
 }
+*/
+
+
+h2.survive {
+    font-family: "Open Sans",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 21px;
+    margin: 10px 0 2px;
+}
+
+
+
+
+
 
 
 
@@ -1654,7 +1684,7 @@ section#black-studio-tinymce-6 img {
 	color: #00662b;
 }
 
-.feature_blog_widgets h3 {
+/*.feature_blog_widgets h3 {
 	font-size: 2rem;
 	text-align: left;
 	font-weight: 700;
@@ -1664,10 +1694,18 @@ section#black-studio-tinymce-6 img {
     padding: 6px 6px 6px 10px;
 
 }
+*/
 
 
-
-
+.feature_blog_widgets h3 {
+    background: #e8e8e8 none repeat scroll 0 0;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    min-height: 73px;
+    padding: 11px 6px 6px 13px;
+    text-align: left;
+}
 
 
 
