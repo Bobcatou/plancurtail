@@ -1172,6 +1172,7 @@ h2.site-description {
 .nav-primary {
 	background-color: #047940;
 	text-align: left;
+	border-top: 5px solid #ccc;
 }
 
 .nav-primary .genesis-nav-menu a {
