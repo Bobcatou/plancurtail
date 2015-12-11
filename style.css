@@ -1656,15 +1656,22 @@ section#black-studio-tinymce-6 img {
 }
 
 .feature_blog_widgets h3 {
-	font-size: 1.2em;
-	text-align: center;
+	font-size: 2rem;
+	text-align: left;
 	font-weight: 700;
-	border-bottom: 1px #54575a solid;
-	padding-bottom: 15px;
-	padding-top: 5px;
 	min-height: 73px;
 	margin-bottom: 20px;
+    background: #e8e8e8;
+    padding: 6px 6px 6px 10px;
+
 }
+
+
+
+
+
+
+
 
 
 
