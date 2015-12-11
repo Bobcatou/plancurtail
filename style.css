@@ -1001,6 +1001,10 @@ img.alignright,
 	width: 100%;
 }*/
 
+h2.site-description {
+	margin: 0;
+}
+
 .site-description {
 	font-size: 30px;
 	font-size: 2rem;
