@@ -1170,20 +1170,21 @@ h2.site-description {
 --------------------------------------------- */
 
 .nav-primary {
-	background-color: #ccc;
-	text-align: right;
+	background-color: #047940;
+	text-align: left;
 }
 
 .nav-primary .genesis-nav-menu a {
-	color: #515151;
+	color: #fff;
 	text-decoration: none;
 	line-height: 1;
+	font-weight: 400;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
 .nav-primary .genesis-nav-menu a:focus,
 .nav-primary .genesis-nav-menu .current-menu-item > a {
-	color: #515151;
+	color: #fff;
 	text-decoration: underline;
 }
 
