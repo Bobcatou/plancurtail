@@ -1172,7 +1172,7 @@ img.alignright,
 .nav-primary .genesis-nav-menu a {
 	color: #515151;
 	text-decoration: none;
-	line-height: 15px;
+	line-height: 1.5;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
@@ -1526,8 +1526,8 @@ nav.nav-header {
 
 h2.annual_co2, h2.first_step {
     text-align: left;
-    font-size: 26px;
     font-size: 2.6rem;
+    font-size: 26px;
     line-height: 28px;
     padding-bottom: 8px;
     color: #0076be;
@@ -1535,8 +1535,8 @@ h2.annual_co2, h2.first_step {
 
 h2.survive {
 	margin: 10px 0 0 0;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
+	font-size: 18px;
     font-weight: 400;
     margin-bottom: 2px;
     font-family: 'Open Sans', sans-serif;
