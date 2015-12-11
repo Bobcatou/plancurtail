@@ -1180,6 +1180,7 @@ h2.site-description {
 	text-decoration: none;
 	line-height: 1;
 	font-weight: 400;
+	border-left: 1px #fff solid;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
@@ -1199,6 +1200,18 @@ h2.site-description {
 	color: #fff;
 	text-decoration: underline;
 }
+
+/* ## Individual Menu characteristics
+--------------------------------------------- */
+
+li#menu-item-321 {
+    border-right: 1px #fff solid;
+    }
+
+
+
+
+
 
 /* ## Secondary Navigation
 --------------------------------------------- */
