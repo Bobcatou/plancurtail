@@ -1172,7 +1172,6 @@ h2.site-description {
 .nav-primary {
 	background-color: #047940;
 	text-align: left;
-	border-top: 5px solid #ccc;
 }
 
 .nav-primary .genesis-nav-menu a {
@@ -1206,10 +1205,28 @@ h2.site-description {
 
 li#menu-item-321 {
     border-right: 1px #fff solid;
+    background: #e69127;
+    border-top:5px solid #ccc;
     }
 
+li#menu-item-314,
+li#menu-item-324,
+li#menu-item-323,
+li#menu-item-316,
+li#menu-item-312,
+li#menu-item-313,
+li#menu-item-322,
+li#menu-item-317 {
+	background: #0072bd;
+	border-top: 5px solid #ccc;
+}
 
+li#menu-item-318,
+li#menu-item-319,
+li#menu-item-320 {
 
+	border-top: 5px solid #ccc;
+}
 
 
 
