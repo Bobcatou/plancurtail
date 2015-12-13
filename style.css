@@ -1215,12 +1215,11 @@ li#menu-item-323,
 li#menu-item-316,
 li#menu-item-312,
 li#menu-item-313,
-li#menu-item-322,
-li#menu-item-317 {
+li#menu-item-322 {
 	background: #0072bd;
 	border-top: 5px solid #ccc;
 }
-
+li#menu-item-317,
 li#menu-item-318,
 li#menu-item-319,
 li#menu-item-320 {
@@ -1526,6 +1525,7 @@ li.comment {
 
 /* # LISTEN TO THE WIND MEDIA CHANGES
 ---------------------------------------------------------------------------------------------------- */
+
 
 /* # General
 ------------------ */
