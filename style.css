@@ -1172,6 +1172,13 @@ h2.site-description {
 .nav-primary {
 	background-color: #047940;
 	text-align: left;
+    border-top:5px solid #ccc;
+	
+}
+
+
+.nav-primary .genesis-nav-menu a:hover {
+	border-top: 5px solid #ff6600;
 }
 
 .nav-primary .genesis-nav-menu a {
@@ -1206,7 +1213,7 @@ h2.site-description {
 li#menu-item-321 {
     border-right: 1px #fff solid;
     background: #e69127;
-    border-top:5px solid #ccc;
+/*  border-top:5px solid #ccc;*/
     }
 
 li#menu-item-314,
@@ -1217,14 +1224,14 @@ li#menu-item-312,
 li#menu-item-313,
 li#menu-item-322 {
 	background: #0072bd;
-	border-top: 5px solid #ccc;
+/*	border-top: 5px solid #ccc;*/
 }
 li#menu-item-317,
 li#menu-item-318,
 li#menu-item-319,
 li#menu-item-320 {
 
-	border-top: 5px solid #ccc;
+/*	border-top: 5px solid #ccc;*/
 }
 
 
