@@ -1194,7 +1194,7 @@ h2.site-description {
 .nav-primary .genesis-nav-menu a:focus,
 .nav-primary .genesis-nav-menu .current-menu-item > a {
 	color: #fff;
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 	border-top: 5px solid #ff6600;
 }
 
