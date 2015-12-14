@@ -1855,10 +1855,17 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 }
 
 
+/* # Back to Home Bar
+-------------------------------------------- */
 
+.lwm_back_to_home_block {
+    background: #047940;
 
+}
 
-
+.back_to_home h4 {
+	color: #fff;
+}
 
 
 /* # Login page stying
