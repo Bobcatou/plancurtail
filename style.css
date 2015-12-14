@@ -1857,29 +1857,8 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 
 
 
-/* # Footer Menu Styling
--------------------------------------------- */
 
-.site-footer .nav-footer a {
-	border-bottom: none;
-	padding: 2.8rem 2.4rem 0 2.4rem;
-	color: #000;
-	
-}
 
-ul#menu-footer-menu {
-    margin-bottom: 20px;
-    border-top: 1px solid #333;
-}
-
-.footer-widgets h3 a {
-	text-decoration: none;
-	color: #54575a;
-}
-
-.footer-widgets h3 a:hover {
-	color: #00662b;
-}
 
 
 /* # Login page stying
