@@ -243,15 +243,7 @@ add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 
 //}
 
-//* Customize footer credits
-//add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
-//function sp_footer_creds_text() {
-//echo '<div class="lwm_credits"><p>';
-//echo 'Copyright &copy; ';
-//echo date('Y');
-//echo ' &middot; <a href="http://plancurtail.org">Plan Curtail</a> &middot; Built by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
-//echo '</p></div>';
-//}
+
 
 
 
