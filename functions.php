@@ -196,37 +196,37 @@ function rv_cpt_remove_post_info_genesis() {
 
 
 //* Show custom menu in Footer
-add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
-function sk_custom_menu_in_footer() {
+//add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
+//function sk_custom_menu_in_footer() {
 
-	$class = 'menu genesis-nav-menu menu-footer';
+//	$class = 'menu genesis-nav-menu menu-footer';
 
-	$args = array(
-		'menu'           => 'Footer Menu', // Enter name of your custom menu here
-		'container'      => '',
-		'menu_class'     => $class,
-		'echo'           => 0,
-		'depth'           => 1,
-	);
+//	$args = array(
+//		'menu'           => 'Footer Menu', // Enter name of your custom menu here
+//		'container'      => '',
+//		'menu_class'     => $class,
+//		'echo'           => 0,
+//		'depth'           => 1,
+//	);
 
-	$nav = wp_nav_menu( $args );
+//	$nav = wp_nav_menu( $args );
 
-	$nav_markup_open = genesis_markup( array(
-		'html5'   => '<nav %s>',
-		'xhtml'   => '<div id="nav">',
-		'context' => 'nav-footer',
-		'echo'    => false,
-	) );
-	$nav_markup_open .= genesis_structural_wrap( 'menu-footer', 'open', 0 );
+//	$nav_markup_open = genesis_markup( array(
+//		'html5'   => '<nav %s>',
+//		'xhtml'   => '<div id="nav">',
+//		'context' => 'nav-footer',
+//		'echo'    => false,
+//	) );
+//	$nav_markup_open .= genesis_structural_wrap( 'menu-footer', 'open', 0 );
 
-	$nav_markup_close  = genesis_structural_wrap( 'menu-footer', 'close', 0 );
-	$nav_markup_close .= genesis_html5() ? '</nav>' : '</div>';
+//	$nav_markup_close  = genesis_structural_wrap( 'menu-footer', 'close', 0 );
+//	$nav_markup_close .= genesis_html5() ? '</nav>' : '</div>';
 
-	$nav_output = $nav_markup_open . $nav . $nav_markup_close;
+//	$nav_output = $nav_markup_open . $nav . $nav_markup_close;
 
-	echo $nav_output;
+//	echo $nav_output;
 
-}
+//}
 
 //* Customize footer credits
 //add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
