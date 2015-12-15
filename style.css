@@ -1796,7 +1796,7 @@ section#black-studio-tinymce-6 img {
 /* # Footer Area 
 ------------------ */
 .wrap #genesis-footer-widgets.footer-widgets {padding: 0px 50px;}
-.footer-widgets .wrap {padding: 0px 75px;}
+.footer-widgets .wrap {padding: 0;}
 .footer-widgets-3.widget-area {
     text-align: center;
 }
