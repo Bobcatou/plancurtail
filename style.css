@@ -348,7 +348,8 @@ img {
 }
 
 .gallery img {
-/*	border: 1px solid #ddd; */
+/*border none for social media icons in header */
+	border: none !important
 	height: auto;
 	padding: 4px;
 }
