@@ -1620,9 +1620,13 @@ section#black-studio-tinymce-17 img {
 }
 */
 
-#lwm_social {
-	float: right;
-}
+
+
+section#black-studio-tinymce-18 {
+    display: inline-block;
+    float: left;
+
+
 
 /* # Menus
 ------------------ */
