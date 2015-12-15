@@ -1498,7 +1498,8 @@ li.comment {
 #genesis-footer-widgets h2, #genesis-footer-widgets h2 a {
 	color: #0076be;
 	font-size: 20px;
-	line-height: 22px;	
+	line-height: 22px;
+	margin-top: 15px;	
 }
 
 #genesis-footer-widgets {
@@ -1506,23 +1507,23 @@ li.comment {
 }
 
 
+
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
-.site-footer {
+/*.site-footer {
 	background-color: #fff;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1;
 	padding: 20px 0;
 	text-align: center;
-	display:none;
 }
 
 .site-footer p {
 	margin-bottom: 0;
 }
-
+*/
 /* Responsive Menu
 --------------------------------------------- */
 
@@ -1582,6 +1583,11 @@ li.comment {
 .site-description p {
 	margin-bottom: 0px;
 }
+
+.lwm_credits {
+	margin-top: 15px;
+}
+
 
 /* # Header
 ------------------ */
