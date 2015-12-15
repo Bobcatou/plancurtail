@@ -140,7 +140,7 @@ html {
 
 /* Chrome fix */
 body > div {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 body {
@@ -1626,8 +1626,11 @@ h2.survive {
 }
 
 
+/*Color first sentences of first row elements*/
 
-
+.lwm_cta_donate_area strong {
+	color: #0076be;
+}
 
 
 
@@ -1754,7 +1757,7 @@ section#black-studio-tinymce-6 img {
 
 .feature_blog_widgets h3 {
     background: #e8e8e8 none repeat scroll 0 0;
-    font-size: 2rem;
+    font-size: 2.1rem;
     font-weight: 400;
     margin-bottom: 20px;
     min-height: 73px;
@@ -1773,7 +1776,8 @@ section#black-studio-tinymce-6 img {
 
 .feature_blog_widgets img {
 	float: left;
-	margin: 0 15px 15px 0;
+	padding-right: 15px;
+	margin-bottom: 0px;
 }
 
 
