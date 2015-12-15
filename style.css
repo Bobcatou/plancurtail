@@ -1771,10 +1771,12 @@ section#black-studio-tinymce-6 img {
 	margin-bottom: 20px;
 }
 
-
-#black-studio-tinymce-10 img,  #black-studio-tinymce-11 img {
-	margin-bottom: 0px;
+.feature_blog_widgets img {
+	float: left;
+	margin: 0 15px 15px 0;
 }
+
+
 
 .lwm_feature_blog.block strong {
 	color: #0076be;
