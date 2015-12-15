@@ -349,7 +349,7 @@ img {
 
 .gallery img {
 /*border none for social media icons in header */
-	border: none !important
+	border: none !important;
 	height: auto;
 	padding: 4px;
 }
