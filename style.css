@@ -1478,13 +1478,13 @@ li.comment {
 .footer-widgets-2,
 .footer-widgets-3,
 .footer-widgets-4 {
-	width: 22%; /* 264px / 1200px */
+	width: 20%; /* 264px / 1200px */
 	float: left;
 }
 
 
 .footer-widgets-1 {
-	width: 22%;
+	width: 31%;
 	float: left;
 }
 
@@ -1492,7 +1492,7 @@ li.comment {
 .footer-widgets-1,
 .footer-widgets-2,
 .footer-widgets-3 {
-	margin-right: 4%; /* 48px / 1200px */
+	margin-right: 3%; /* 48px / 1200px */
 }
 
 
