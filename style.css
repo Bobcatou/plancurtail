@@ -1504,9 +1504,12 @@ li.comment {
 
 #genesis-footer-widgets {
 	background: #e8e8e8;
+	padding-bottom: 20px;
 }
 
-
+#genesis-footer-widgets p {
+	font-size: 1.4rem;
+}
 
 /* # Site Footer
 ---------------------------------------------------------------------------------------------------- */
