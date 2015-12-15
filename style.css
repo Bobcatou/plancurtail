@@ -1016,10 +1016,18 @@ img.alignright,
 	float: right;
 }
 */
+
+
+
 .site-description,
 .site-title {
 	margin: 0 auto;
 }
+
+.site-description {
+	margin-right: 240px;
+}
+
 
 .header-image .site-description,
 .header-image .site-title {
