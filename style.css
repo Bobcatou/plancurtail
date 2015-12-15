@@ -1495,6 +1495,11 @@ li.comment {
 	margin-right: 3%; /* 48px / 1200px */
 }
 
+#genesis-footer-widgets h2, #genesis-footer-widgets h2 a {
+	color: #0076be;
+	font-size: 20px;
+	line-height: 22px;	
+}
 
 
 /* # Site Footer
