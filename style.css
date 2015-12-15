@@ -140,17 +140,17 @@ html {
 
 /* Chrome fix */
 body > div {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 body {
 	background-color: #f5f5f5;
 	color: #515151;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 15px;
+	font-size: 1.5em;
 	font-weight: 300;
-	line-height: 1.4;
+	line-height: 1.5em;
 	margin: 0;
 }
 
@@ -1031,7 +1031,7 @@ img.alignright,
 
 .site-description,
 .site-title {
-	margin-top: 33px;
+	margin-top: 27px;
 }
 
 
@@ -1608,7 +1608,7 @@ li.comment {
 
 /* # Header
 ------------------ */
-
+/*
 section#black-studio-tinymce-17 {
 	float: right;
 	margin-left: 4px;
@@ -1617,9 +1617,10 @@ section#black-studio-tinymce-17 {
 section#black-studio-tinymce-17 img {
 	margin: 0 4px;
 }
+*/
 
-input#searchform-5670700fd8dc4 {
-	height: 25px;
+#lwm_social {
+	float: right;
 }
 
 /* # Menus
