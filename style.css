@@ -1063,6 +1063,7 @@ img.alignright,
 	font-size: 1.6rem;
 	line-height: 24px;
 	width: 100%;
+	margin-top: -5px; 
 }
 
 .genesis-nav-menu .menu-item {
@@ -1187,7 +1188,7 @@ img.alignright,
 .nav-primary {
 	background-color: #047940;
 	text-align: left;
-/*    border-top:5px solid #ccc;*/
+    border-top:5px solid #ccc;
 	
 }
 
