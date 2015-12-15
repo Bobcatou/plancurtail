@@ -1516,6 +1516,7 @@ li.comment {
 	line-height: 1;
 	padding: 20px 0;
 	text-align: center;
+	display:none;
 }
 
 .site-footer p {
