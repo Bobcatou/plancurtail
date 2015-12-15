@@ -1232,10 +1232,11 @@ img.alignright,
 --------------------------------------------- */
 
 li#menu-item-321 {
-    border-right: 1px #fff solid;
+    border-right: 1px #fff solid; 
     background: #e69127;
 /*    border-top:5px solid #ccc;*/
     }
+
 
 li#menu-item-314,
 li#menu-item-324,
@@ -1256,6 +1257,9 @@ li#menu-item-320 {
 
 }
 
+.nav-primary .menu-item-317 a {
+    border-left: none;
+}
 
 
 
