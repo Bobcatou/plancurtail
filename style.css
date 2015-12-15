@@ -1484,7 +1484,8 @@ li.comment {
 
 
 .footer-widgets-1 {
-	
+	width: 22%;
+	float: left;
 }
 
 
