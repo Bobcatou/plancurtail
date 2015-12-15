@@ -1618,7 +1618,9 @@ section#black-studio-tinymce-17 img {
 	margin: 0 4px;
 }
 
-
+input#searchform-5670700fd8dc4 {
+	height: 25px;
+}
 
 /* # Menus
 ------------------ */
@@ -1886,7 +1888,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	background: transparent;
 	color: #999;
 	right: 10px;
-	top: 6px;
+	top: 3px;
 }
 
 .search-form input[type="submit"]:hover {
@@ -1901,6 +1903,9 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	height: 20px;
 }
 
+form.search-form input {
+	height: 25px;
+}
 
 /* # Back to Home Bar
 -------------------------------------------- */
