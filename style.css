@@ -370,7 +370,7 @@ textarea {
 	color: #515151;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 400;
+	font-weight: 300;
 	padding: 5px 0px 5px 10px;
 	width: 100%;
 }
@@ -388,14 +388,14 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-	color: #333;
-	font-weight: 300;
+	color: #515151;
+	font-weight: 400;
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-	color: #333;
-	font-weight: 300;
+	color: #515151;
+	font-weight: 400;
 }
 
 button,
