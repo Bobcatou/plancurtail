@@ -1027,10 +1027,10 @@ img.alignright,
 }
 
 .site-description {
-	padding-bottom: 6px;
+	margin-top:34px;
 }
 
-.site-description,
+
 .site-title {
 	margin-top: 27px;
 }
