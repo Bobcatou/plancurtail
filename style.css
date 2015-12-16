@@ -351,13 +351,20 @@ img {
 /*border none for social media icons in header */
 	border: none !important;
 	height: auto;
-	padding: 4px;
+/*	padding: 4px; */
 }
 
 .gallery img:hover,
 .gallery img:focus {
 	border: 1px solid #999;
 }
+
+/*For social media icons in header */
+#gallery-2 .gallery-item {
+	margin-top: 0px !important;
+	padding-left: 4px !important;
+}
+
 
 /* ## Forms
 --------------------------------------------- */
