@@ -992,7 +992,7 @@ img.alignright,
 
 .site-title a img {
 	vertical-align: top;
-	margin-top: 13px;
+	margin-top: 7px;
 
 }
 
@@ -1048,7 +1048,7 @@ img.alignright,
 .site-header .widget-area {
 	float: right;
 	text-align: right;
-	margin-top: 20px;
+	margin-top: 14px;
 	/*padding-right: 64px;*/
 	/*width: 800px;*/
 }
