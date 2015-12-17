@@ -41,8 +41,6 @@ add_action( 'genesis_before_content', 'lwm_cta_donate', 15 );
  ) );
  echo '</div>';
  echo '<div class="lwm_last_widget one-third">';  
- echo "<h2 class='survive'>SURVIVAL ACTIONS</h2>";
- echo "<h2 class='first_step'>First Step, a C0<sub>2</sub> Budget</h2>";
    genesis_widget_area( 'lwm_donate_column_3', array(
    'before' => '<div class="lwm_donate3">',
    'after' => '</div>',
