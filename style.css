@@ -140,7 +140,7 @@ html {
 
 /* Chrome fix */
 body > div {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 body {
@@ -150,7 +150,7 @@ body {
 	font-size: 15px;
 	font-size: 1.5em;
 	font-weight: 300;
-	line-height: 1.5em;
+	line-height: 1.6em;
 	margin: 0;
 }
 
