@@ -1924,7 +1924,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 }
 
 form.search-form input {
-	height: 25px;
+	height: 24px;
 }
 
 /* # Back to Home Bar
