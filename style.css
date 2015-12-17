@@ -1937,18 +1937,22 @@ form.search-form input {
 
 .back_to_home h4 {
 	color: #fff;
-	line-height: 32px;
-	padding-top: 4px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	padding-top: 9px;
+	font-size: 1.9rem;
 }
 
 .back_to_home h4:before {
 	content: url(images/back_to_icon_white.png);
 	display:block;
 	float: left;
-	padding: 4px 4px 0 0;
-
+	padding-right: 5px;
 }
 
+.back_to_home {
+	height: 40px;
+}
 
 
 /* # Login page stying
