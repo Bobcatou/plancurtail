@@ -1908,7 +1908,7 @@ input:focus:-ms-input-placeholder { color:transparent; } /* oldIE ;) */
 	background: transparent;
 	color: #999;
 	right: 10px;
-	top: 3px;
+	top: 4px;
 }
 
 .search-form input[type="submit"]:hover {
