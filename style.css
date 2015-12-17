@@ -1738,12 +1738,6 @@ section#black-studio-tinymce-6 img {
 }
 
 
-	
-
-.lwm_donate3 img {
-	border-radius: 10px;
-}
-
 
 .lwm_cta_donate_area.block.wrap {
     margin-bottom: 10px;
@@ -1859,6 +1853,12 @@ section#black-studio-tinymce-6 img {
 	color: #0076be;
 }
 
+
+.lwm_feat_blog2.one-third {
+	min-height: 867px;
+}
+
+
 /* # About Us Page
 ------------------ */
 
@@ -1967,10 +1967,24 @@ form.search-form input {
     width: 259px !important;
 }
 
+/* # Borders for columns
+-------------------------------------------- */
 
+.lwm_last_widget.one-third {
+	border-left:1px dotted #515151; 
+	padding-left: 25px;
+}
+.lwm_feat_blog2.one-third, .lwm_feat_blog3.one-third {
+	border-left:1px dotted #515151;
+	padding-left: 31px;
+}
 
+/*.lwm_donate3 {
+	border-left:1px dotted #515151;
+	padding-left: 25px;
 
-
+}
+*/
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
