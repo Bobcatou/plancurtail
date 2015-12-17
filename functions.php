@@ -201,11 +201,11 @@ function rv_cpt_remove_post_info_genesis() {
 //* Footer Back to Home Link
 add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 	function lwm_back_to_home () {
-	echo '<div class="lwm_back_to_home_block">';
+	echo '<a href="http://localhost/plancurtail.dev"><div class="lwm_back_to_home_block">';
 	echo '<div class="wrap interior_bth">';
 	echo '<div class="back_to_home">';
 	echo '<h4>Back to Home page</h4>';
-	echo '</div>';
+	echo '</div></a>';
 	echo '</div>';
 	echo '</div>';
 
