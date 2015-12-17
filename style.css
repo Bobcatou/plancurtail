@@ -1265,7 +1265,8 @@ li#menu-item-320 {
 }
 
 .nav-primary .menu-item-317 a {
-    border-left: none;
+    border-left: medium none;
+    padding-left: 0;
 }
 
 
