@@ -1658,6 +1658,19 @@ nav.nav-header {
 /* # NewCTA/DONATE Area 
 -------------------------- */
 
+#click-to-enlarge img {
+	margin: 4px 5px 0 0;
+}
+
+#click-to-enlarge p {
+	font-size: 13px;
+	font-weight: 600;
+	color: #0076be;
+}
+
+#click-to-enlarge {
+	margin-top: 14px;
+}
 
 .site-header .widget-area {min-height: 78px;}
 .site-header .widget-area p {margin-bottom: 0px;}
