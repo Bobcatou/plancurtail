@@ -361,7 +361,7 @@ img {
 
 /*For social media icons in header */
 #gallery-2 .gallery-item {
-	margin-top: 0px !important;
+	margin-top: 1px !important;
 	padding-left: 4px !important;
 }
 
@@ -1663,7 +1663,7 @@ nav.nav-header {
 }
 
 #click-to-enlarge p {
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #0076be;
 }
@@ -1874,6 +1874,12 @@ section#black-studio-tinymce-6 img {
 }
 
 
+a.fancybox.image {
+   cursor: url(images/enlarge-icon.png), auto;
+}
+
+
+
 /* # About Us Page
 ------------------ */
 
@@ -1954,9 +1960,12 @@ form.search-form input {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
-	padding-top: 9px;
-	font-size: 1.9rem;
+	padding-top: 10px;
+	font-size: 14px;
+	line-height: 19px;
 }
+
+
 
 .back_to_home h4:before {
 	content: url(images/back_to_icon_white.png);
