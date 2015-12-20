@@ -1530,6 +1530,13 @@ li.comment {
 	margin-top: 15px;	
 }
 
+
+#genesis-footer-widgets h2 a:hover {
+	color: #515151;
+
+
+
+
 #genesis-footer-widgets {
 	background: #e8e8e8;
 	padding-bottom: 20px;
@@ -1851,6 +1858,10 @@ section#black-studio-tinymce-6 img {
     font-weight: 600;
 }
 
+.lmw-more a:hover {
+    color: #515151;
+}
+
 
 .feature_blog_widgets {
 	margin-bottom: 20px;
@@ -1963,6 +1974,10 @@ form.search-form input {
 	padding-top: 10px;
 	font-size: 14px;
 	line-height: 19px;
+}
+
+.back_to_home h4:hover {
+	color: #515151;
 }
 
 
