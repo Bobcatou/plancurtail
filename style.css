@@ -749,6 +749,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 	font-size: 30px;
 	font-size: 3rem;
 	text-align: left;
+	color: #0076be;
 }
 
 .entry-title {
@@ -758,12 +759,12 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 
 .entry-title a,
 .sidebar .widget-title a {
-	color: #333;
+	color: #047940;
 }
 
 .entry-title a:hover,
 .entry-title a:focus {
-	color: #c3251d;
+	color: #515151;
 }
 
 .widget-title {
