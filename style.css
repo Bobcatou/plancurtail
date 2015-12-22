@@ -366,12 +366,6 @@ img {
 }
 
 
-@-moz-document url-prefix() { 
-#gallery-2 .gallery-item  {
-     margin-top:20px !important;
-  }
-}
-
 
 
 
