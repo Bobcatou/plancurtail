@@ -366,6 +366,15 @@ img {
 }
 
 
+@-moz-document url-prefix() { 
+#gallery-2 .gallery-item  {
+     margin-top:20px !important;
+  }
+}
+
+
+
+
 /* ## Forms
 --------------------------------------------- */
 
@@ -1846,9 +1855,10 @@ section#black-studio-tinymce-6 img {
 
 .feature_blog_widgets h2 {
     background: #e8e8e8 none repeat scroll 0 0;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     font-weight: 400;
-    margin-bottom: 20px;
+    line-height: 2.9rem;
+    margin-bottom: 3px;
     min-height: 73px;
     padding: 11px 6px 6px 13px;
     text-align: left;
