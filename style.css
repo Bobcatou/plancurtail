@@ -760,6 +760,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 	font-size: 3rem;
 	text-align: left;
 	color: #0076be;
+	margin-bottom: 10px;
 }
 
 .entry-title {
