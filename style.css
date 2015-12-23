@@ -700,6 +700,12 @@ th {
 	padding: 15px 20px 25px;
 }
 
+/*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
+.archive-description.taxonomy-archive-description.taxonomy-description strong {
+	color: #0072bd;
+}
+
+
 .author-box-title {
 	font-size: 16px;
 	font-size: 1.6rem;
