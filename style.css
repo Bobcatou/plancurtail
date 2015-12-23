@@ -1009,6 +1009,17 @@ img.alignright,
 
 }
 
+
+h2.site-description {
+	color: #047940;
+	text-align: left;
+	letter-spacing: -.5px;
+	margin-bottom: 19px;
+	line-height: 30px
+	
+}
+
+
 /*.header-image .site-title > a {
 	background: url(images/logo.png) no-repeat left;
 	float: left;
