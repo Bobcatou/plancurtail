@@ -1892,7 +1892,7 @@ section#black-studio-tinymce-6 img {
 	margin-bottom: 20px;
 }
 
-.feature_blog_widgets img {
+.feature_blog_widgets img, .archive-description.taxonomy-archive-description.taxonomy-description img {
 	float: left;
 	padding-right: 15px;
 	margin-bottom: 0px;
