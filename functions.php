@@ -211,8 +211,27 @@ add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 
 	}
 	
-	
 
+
+/**
+ * Prints a category's title and description (no markup added)
+ *
+ * @author Ren Ventura
+ * @link http://www.engagewp.com/how-to-display-category-name-description-genesis/
+ */
+ 
+add_action( 'genesis_before_loop', 'rv_output_category_info', 15 );
+function rv_output_category_info() {
+
+	if ( is_category() || is_tag() || is_tax() ) {
+
+//		echo single_term_title();
+
+		echo term_description();
+
+	}
+
+}
 
 
 //* Show custom menu in Footer
