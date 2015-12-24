@@ -1532,6 +1532,7 @@ li.comment {
 .footer-widgets-4 {
 	width: 20%; /* 264px / 1200px */
 	float: left;
+	line-height: 21px;
 }
 
 
