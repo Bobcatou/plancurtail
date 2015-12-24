@@ -233,6 +233,13 @@ function rv_output_category_info() {
 
 }
 
+// Shortcode Functions ennabled in Content Archive Description area
+
+add_filter( 'term_description', 'shortcode_unautop');
+add_filter( 'term_description', 'do_shortcode' );
+
+
+
 
 //* Show custom menu in Footer
 //add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
