@@ -246,6 +246,7 @@ add_filter( 'term_description', 'do_shortcode' );
 function remove_dashboard_meta() {
         remove_meta_box( 'dashboard_primary', 'dashboard', 'normal' );
         remove_meta_box( 'pb_backupbuddy_stats', 'dashboard', 'normal' );
+        remove_meta_box( 'wpseo-dashboard-overview', 'dashboard', 'normal' );
 
         }
 add_action( 'admin_init', 'remove_dashboard_meta' );
