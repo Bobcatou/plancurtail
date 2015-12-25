@@ -240,6 +240,23 @@ add_filter( 'term_description', 'do_shortcode' );
 
 
 
+/**
+ * Removes Dashboard Widgets
+ */
+function remove_dashboard_meta() {
+        remove_meta_box( 'dashboard_primary', 'dashboard', 'normal' );
+        remove_meta_box( 'pb_backupbuddy_stats', 'dashboard', 'normal' );
+
+        }
+add_action( 'admin_init', 'remove_dashboard_meta' );
+
+
+
+
+
+
+
+
 
 //* Show custom menu in Footer
 //add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
