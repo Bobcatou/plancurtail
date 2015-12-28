@@ -1,0 +1,20 @@
+[wpv-layout-start]
+	[wpv-items-found]
+	<!-- wpv-loop-start -->
+	<ul>
+		<wpv-loop>
+			<li>
+              <h2 class="entry-title" itemprop="headline">[wpv-post-link]</h2>
+				<p class="entry-meta">[types field="date-of-publication"][/types]
+				[types field="written-by"][/types]
+              [wpv-conditional if="( empty($(wpcf-written-by)) )"][wpv-post-date] &nbsp;[wpv-post-author format="link"][/wpv-conditional]</p>
+              [wpv-post-excerpt length="75" count="word"]<a href="[wpv-post-url]" class="more-link"> » Read more</a>
+			</li>
+		</wpv-loop>
+	</ul>
+	<!-- wpv-loop-end -->
+	[/wpv-items-found]
+	[wpv-no-items-found]
+		<strong>[wpml-string context="wpv-views"]No items found[/wpml-string]</strong>
+	[/wpv-no-items-found]
+[wpv-layout-end]
