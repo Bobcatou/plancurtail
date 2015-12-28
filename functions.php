@@ -83,16 +83,16 @@ function custom_scripts_styles_mobile_responsive() {
 }
 
 // Customize the previous page link
-add_filter ( 'genesis_prev_link_text' , 'sp_previous_page_link' );
-function sp_previous_page_link ( $text ) {
-	return g_ent( '&laquo; ' ) . __( 'Previous Page', CHILD_DOMAIN );
-}
+//add_filter ( 'genesis_prev_link_text' , 'sp_previous_page_link' );
+//function sp_previous_page_link ( $text ) {
+//	return g_ent( '&laquo; ' ) . __( 'Previous Page', CHILD_DOMAIN );
+//}
 
 // Customize the next page link
-add_filter ( 'genesis_next_link_text' , 'sp_next_page_link' );
-function sp_next_page_link ( $text ) {
-	return __( 'Next Page', CHILD_DOMAIN ) . g_ent( ' &raquo; ' );
-}
+//add_filter ( 'genesis_next_link_text' , 'sp_next_page_link' );
+//function sp_next_page_link ( $text ) {
+//	return __( 'Next Page', CHILD_DOMAIN ) . g_ent( ' &raquo; ' );
+//}
 
 /**
  * Remove Genesis Page Templates
