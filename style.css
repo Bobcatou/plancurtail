@@ -1810,7 +1810,7 @@ section#black-studio-tinymce-6 img {
 /* # White Paper Content Template
 ---------------------------------------- */
 
-.white-paper h3 {
+.white-paper h3, h3#reply-title {
    color: #0072bd;
 
 }
