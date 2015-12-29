@@ -1421,7 +1421,7 @@ p.entry-meta {
 
 .comment-respond,
 .entry-pings {
-	padding: 40px 40px 16px;
+	padding: 0px 40px 16px;
 }
 
 .entry-comments {
@@ -1842,8 +1842,9 @@ section#black-studio-tinymce-6 img {
    font-weight: 700;
 }
 
-.click-to-download {
+.white_paper {
 	border-bottom: 1px dotted #515151;
+	padding-bottom: 40px;
 
 }
 
