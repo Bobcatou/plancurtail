@@ -765,7 +765,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 
 .entry-title {
 	font-size: 36px;
-	font-size: 3.6rem;
+	font-size: 3.2rem;
 	color: #047940;
 }
 
@@ -1842,6 +1842,10 @@ section#black-studio-tinymce-6 img {
 .click-to-download a {
    color: #0072bd;
    font-weight: 700;
+}
+
+.click-to-download a:hover {
+   color: #515151;
 }
 
 .click-to-download {
