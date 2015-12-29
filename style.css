@@ -1829,6 +1829,17 @@ section#black-studio-tinymce-6 img {
     margin-top: 10px;
 }
 
+.click-to-download a:before {
+	content: url(images/download-icon-blue.png);
+	display:block;
+	float: left;
+	padding-right: 5px;
+}
+
+
+
+
+
 
 /*Pdf Button Styling*/
 .pdf_btn a {
