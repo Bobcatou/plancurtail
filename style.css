@@ -1817,7 +1817,6 @@ section#black-studio-tinymce-6 img {
 }
 
 .white-paper {
-	border-bottom: 1px dotted #515151;
 }
 
 .paper-writer h3 {
@@ -1845,7 +1844,10 @@ section#black-studio-tinymce-6 img {
    font-weight: 700;
 }
 
+.click-to-download {
+	border-bottom: 1px dotted #515151;
 
+}
 
 
 /*Pdf Button Styling*/
