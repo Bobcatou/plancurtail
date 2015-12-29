@@ -1809,6 +1809,12 @@ section#black-studio-tinymce-6 img {
 
 /* # White Paper Content Template
 ---------------------------------------- */
+
+.white-paper h3 {
+   color: #0072bd;
+
+}
+
 .paper-writer h3 {
     margin-top: 15px;
 }
