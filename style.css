@@ -1316,7 +1316,7 @@ li#menu-item-320 {
 
 .entry {
 	margin-bottom: 40px;
-	padding: 50px 60px;
+	padding: 50px 40px;
 }
 
 .content .entry {
@@ -1836,7 +1836,10 @@ section#black-studio-tinymce-6 img {
 	padding-right: 5px;
 }
 
-
+.click-to-download a {
+   color: #0072bd;
+   font-weight: 700;
+}
 
 
 
