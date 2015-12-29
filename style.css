@@ -1816,6 +1816,10 @@ section#black-studio-tinymce-6 img {
 
 }
 
+.white-paper {
+	border-bottom: 1px dotted #515151;
+}
+
 .paper-writer h3 {
     margin-top: 15px;
 }
