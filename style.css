@@ -766,6 +766,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 .entry-title {
 	font-size: 36px;
 	font-size: 3.6rem;
+	color: #047940;
 }
 
 .entry-title a,
