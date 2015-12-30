@@ -1653,6 +1653,11 @@ li.comment {
 	margin-top: 15px;
 }
 
+/*Comment Login Link at bottom of post*/
+p.must-log-in a {
+	color: #0072bd !important;
+}
+
 
 /* # Header
 ------------------ */
