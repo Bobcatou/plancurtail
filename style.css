@@ -1659,6 +1659,13 @@ p.must-log-in a {
 }
 
 
+/*Headers Htags for PC Category Pages only*/
+
+.post-381 header.entry-header {
+    background: #f4f2f1;
+    padding: 15px 20px 0;
+    }
+
 /* # Header
 ------------------ */
 /*
@@ -1935,7 +1942,7 @@ section#black-studio-tinymce-6 img {
 	margin-bottom: 20px;
 }
 
-.feature_blog_widgets img, .archive-description.taxonomy-archive-description.taxonomy-description img {
+.lwm-pc-categories img, .feature_blog_widgets img, .archive-description.taxonomy-archive-description.taxonomy-description img {
 	float: left;
 	padding-right: 15px;
 	margin-bottom: 0px;
