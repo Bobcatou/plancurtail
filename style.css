@@ -768,6 +768,7 @@ input[type="search"]:focus:-ms-input-placeholder { color:transparent; } /* oldIE
 	font-size: 36px;
 	font-size: 3rem;
 	color: #0076be;
+	padding-top: 15px;
 }
 
 .entry-title a,
