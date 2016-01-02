@@ -1846,6 +1846,26 @@ section#black-studio-tinymce-6 img {
 .graphic-copy, .graphic-copy2 {display: table-cell; vertical-align: middle; height: 584px;}
 */
 
+/* # Topic Category Page
+---------------------------------------- */
+
+h3.subheads {
+	padding-bottom: 5px;
+}
+
+
+h3.history-titles, h3.car-presentation-titles {
+    font-size: 1.7rem;
+    padding: 10px 0 10px;
+    border-bottom: 1px dotted #515151;
+}
+
+h3.history-titles a, h3.car-presentation-titles a {
+	color: #0072bd;
+
+}
+
+
 /* # White Paper Content Template
 ---------------------------------------- */
 
