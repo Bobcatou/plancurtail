@@ -1670,7 +1670,7 @@ p.must-log-in a {
 
 /*Headers Htags for PC Category Pages only*/
 
-.post-381 header.entry-header {
+.post-381 header.entry-header, .post-419 header.entry-header {
     background: #f4f2f1;
 	padding: 0px 20px 0;
     }
@@ -1862,7 +1862,6 @@ h3.history-titles, h3.car-presentation-titles {
 
 h3.history-titles a, h3.car-presentation-titles a {
 	color: #0072bd;
-
 }
 
 
