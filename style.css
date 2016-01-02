@@ -700,6 +700,10 @@ th {
 	padding: 15px 20px 25px;
 }
 
+.lwm-pc-categories {
+	padding-top: 10px;
+}
+
 /*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
 .lwm-pc-categories strong, .archive-description.taxonomy-archive-description.taxonomy-description strong {
 	color: #0072bd;
