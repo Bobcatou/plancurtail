@@ -603,6 +603,13 @@ th {
 	float: right;
 }
 
+.content-sidebar .content {
+	border-right: 1px dotted #515151;
+	padding-right: 40px;
+}
+
+
+
 /* ## Column Classes
 --------------------------------------------- */
 /* Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css */
@@ -1705,7 +1712,23 @@ nav.nav-header {
 }
 
 /* # NewCTA/DONATE Area 
--------------------------- */
+----------------------------------- */
+
+/* # Borders for columns
+------------------------- */
+
+.lwm_feat_blog2.one-third, .lwm_feat_blog3.one-third {
+	border-left:1px dotted #515151;
+	padding-left: 31px;
+}
+
+.lwm-left-border {
+    border-left: 1px dotted #515151;
+    padding-left: 30px;
+}
+
+
+
 
 #click-to-enlarge img {
 	margin: 4px 5px 0 0;
@@ -1831,9 +1854,6 @@ section#black-studio-tinymce-6 img {
    font-size: 2rem;
 
 }
-
-
-
 
 .paper-writer {
     margin-top: 10px;
@@ -2117,19 +2137,6 @@ form.search-form input {
     background-size: 259px !important;
     height: auto !important;
     width: 259px !important;
-}
-
-/* # Borders for columns
--------------------------------------------- */
-
-.lwm_feat_blog2.one-third, .lwm_feat_blog3.one-third {
-	border-left:1px dotted #515151;
-	padding-left: 31px;
-}
-
-.lwm-left-border {
-    border-left: 1px dotted #515151;
-    padding-left: 30px;
 }
 
 
