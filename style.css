@@ -1490,7 +1490,7 @@ li.comment {
 	font-size: 16px;
 	font-size: 1.6rem;
 /*	border-left: 1px dotted #515151; */
-	padding-left: 40px;	
+	padding-left: 0px;	
 }
 
 .sidebar li {
