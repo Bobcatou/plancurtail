@@ -709,7 +709,7 @@ th {
 
 
 /*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
-.lwm-pc-categories strong, .archive-description.taxonomy-archive-description.taxonomy-description strong {
+.lwm-pc-categories strong, .paper-desc strong {
 	color: #0072bd;
 }
 
