@@ -849,7 +849,9 @@ img.alignright,
 	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 700;
-	text-align: center;
+	text-align: left;
+	font-style: italic;
+	line-height: 1.9rem;
 }
 
 .entry-content p.wp-caption-text {
@@ -1303,9 +1305,7 @@ li#menu-item-320 {
 
 }
 
-.wp-caption-dd {
-	font-size: 34px !important;
-}
+
 
 .nav-primary .menu-item-317 a {
     border-left: medium none;
@@ -1863,6 +1863,14 @@ section#black-studio-tinymce-6 img {
 
 /* # Topic Category Page
 ---------------------------------------- */
+
+/*lwm change helps images in Cuba and possibly other */
+.lwm-pc-categories a.alignleft,
+.lwm-pc-categories img.alignleft {
+	margin-right: 0px;
+}
+
+
 
 h3.subheads {
 	padding-bottom: 5px;
