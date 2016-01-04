@@ -1277,8 +1277,13 @@ li#menu-item-321 {
     background: #e69127;
 /*    border-top:5px solid #ccc;*/
     }
-
-
+li#menu-item-463,
+li#menu-item-462,
+li#menu-item-461,
+li#menu-item-460,
+li#menu-item-446,
+li#menu-item-429,
+li#menu-item-391,
 li#menu-item-314,
 li#menu-item-324,
 li#menu-item-323,
@@ -1296,6 +1301,10 @@ li#menu-item-320 {
 	background: #047940;
 /*  	border-top:5px solid #ccc;*/
 
+}
+
+.wp-caption-dd {
+	font-size: 34px !important;
 }
 
 .nav-primary .menu-item-317 a {
@@ -1670,9 +1679,13 @@ p.must-log-in a {
 
 /*Headers Htags for PC Category Pages only*/
 
+.post-456 header.entry-header,
+.post-454 header.entry-header,
+.post-452 header.entry-header,
+.post-450 header.entry-header,
 .post-381 header.entry-header,
 .post-419 header.entry-header,
-.post-421 header.entry-header {
+.post-444 header.entry-header {
     background: #f4f2f1;
 	padding: 0px 20px 0;
     }
