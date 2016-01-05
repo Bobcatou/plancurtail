@@ -1883,9 +1883,23 @@ h3.history-titles, h3.car-presentation-titles {
     border-bottom: 1px dotted #515151;
 }
 
-h3.history-titles a, h3.car-presentation-titles a {
+.house-books {
+    border-bottom: 1px dotted #515151;
+
+}
+
+h3.housing-book-titles, h3.housing-book-titles a {
+    font-size: 1.7rem;
+    padding: 10px 0 10px;	
+}
+
+h3.housing-book-titles, h3.housing-book-titles a, h3.history-titles a, h3.car-presentation-titles a {
 	color: #0072bd;
 }
+
+
+
+
 
 /*Papers and Presentations section of the Topic Pages*/
 
