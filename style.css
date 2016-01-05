@@ -2021,6 +2021,10 @@ h3.history-titles a, h3.car-presentation-titles a {
     border: 1px solid #999999;
 }
 
+.lwm-cuba .lwm-pc-categories img {
+	margin-right: 15px;
+	border: 0;
+}
 
 .lwm_feature_blog.block strong {
 	color: #0076be;
