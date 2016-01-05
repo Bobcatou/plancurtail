@@ -2017,10 +2017,9 @@ h3.history-titles a, h3.car-presentation-titles a {
 
 .lwm-pc-categories img, .feature_blog_widgets img, .archive-description.taxonomy-archive-description.taxonomy-description img {
 	float: left;
-	padding-right: 15px;
-	margin-bottom: 0px;
+	margin: 6px 15px 0 0;
+    border: 1px solid #999999;
 }
-
 
 
 .lwm_feature_blog.block strong {
