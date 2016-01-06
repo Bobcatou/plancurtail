@@ -1906,11 +1906,11 @@ h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles
 	text-decoration: underline;
 }
 
-h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-titles a:visited, h3.car-presentation-titles a:visited, .best-600-widget h3 a:visited  {
+/*h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-titles a:visited, h3.car-presentation-titles a:visited, .best-600-widget h3 a:visited  {
 	color: #515151;
 }
 
-
+*/
 
 .best-600-widget {
 	padding-bottom: 10px;
