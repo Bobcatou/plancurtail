@@ -1931,7 +1931,7 @@ h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-ti
 /* # White Paper Content Template
 ---------------------------------------- */
 
-.white-paper h3, h3#reply-title, #spinning-our-wheels h3 {
+.white-paper h3, h3#reply-title, #spinning-our-wheels h3, green-tragedy-book h3 {
    color: #0072bd;
    font-size: 2rem;
 
@@ -2117,21 +2117,21 @@ aside#genesis-sidebar-primary .widgettitle {
 	
 }
 
-#spinning-our-wheels h3 {
+/*#spinning-our-wheels h3 {
 	color: #0072bd;
-}
-#spinning-our-wheels p {
+}*/
+#spinning-our-wheels p, #green-tragedy-book p {
 	margin-bottom: 5px;
 }
 
-#spinning-our-wheels h4 {
+#spinning-our-wheels h4, #green-tragedy-book h4 {
 	color: #0072bd;
 	font-size: 13px;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 }
 
-#spinning-our-wheels img {
+#spinning-our-wheels img, #green-tragedy-book img {
 	margin-bottom: 0;
 }
 
