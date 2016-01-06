@@ -1931,7 +1931,7 @@ h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-ti
 /* # White Paper Content Template
 ---------------------------------------- */
 
-.white-paper h3, h3#reply-title, #spinning-our-wheels h3, green-tragedy-book h3 {
+.white-paper h3, h3#reply-title, #spinning-our-wheels h3, #green-tragedy-book h3 {
    color: #0072bd;
    font-size: 2rem;
 
