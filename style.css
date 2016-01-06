@@ -1883,9 +1883,11 @@ h3.history-titles, h3.car-presentation-titles {
     border-bottom: 1px dotted #515151;
 }
 
-/*Housing Page*/
+/*Housing Page
+---------------------------------------- */
 
-.house-books {
+
+.house-books, .best-600-widget {
     border-bottom: 1px dotted #515151;
 
 }
@@ -1896,11 +1898,23 @@ h3.housing-book-titles, h3.housing-book-titles a {
 }
 
 /*note selector from car too*/
-h3.housing-book-titles, h3.housing-book-titles a, h3.history-titles a, h3.car-presentation-titles a {
+h3.housing-book-titles, h3.housing-book-titles a, h3.history-titles a, h3.car-presentation-titles a, .best-600 strong, .best-600-widget h3 a  {
 	color: #0072bd;
 }
 
+h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles a:hover, h3.car-presentation-titles a:hover, .best-600-widget h3 a:hover  {
+	text-decoration: underline;
+}
 
+h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-titles a:visited, h3.car-presentation-titles a:visited, .best-600-widget h3 a:visited  {
+	color: #515151;
+}
+
+
+
+.best-600-widget {
+	padding-bottom: 10px;
+}
 
 
 
