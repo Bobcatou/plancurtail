@@ -1844,6 +1844,10 @@ section#black-studio-tinymce-6 img {
 
 }
 
+.feature_blog_widgets img {
+	float: left;
+	margin: 6px 15px 0 0;
+}
 
 
 	
@@ -2046,11 +2050,12 @@ h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles
 	margin-bottom: 20px;
 }
 
-.lwm-pc-categories img, .feature_blog_widgets img, .archive-description.taxonomy-archive-description.taxonomy-description img {
+.lwm-pc-categories img, .archive-description.taxonomy-archive-description.taxonomy-description img {
 	float: left;
 	margin: 6px 15px 0 0;
     border: 1px solid #999999;
 }
+
 
 .lwm-cuba .lwm-pc-categories img {
 	margin-right: 15px;
