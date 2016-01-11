@@ -355,22 +355,23 @@ remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 
 //* New CTA/Donate Section
 
+
 //* 1st Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_donate_column_1',
-	'name'          => __( 'CTA/Donate Area - First Third', 'plancurtail' ),
-	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+	'name'          => __( 'Question of Survival Area - Part 1', 'plancurtail' ),
+	'description'   => __( 'Initial build has graphic here', 'plancurtail' ),
 ) );
 //* 2nd Column
 genesis_register_sidebar( array(
 	'id'            => 'lwm_donate_column_2',
-	'name'          => __( 'CTA/Donate Area - Second Third', 'plancurtail' ),
-	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+	'name'          => __( 'Question of Survival Area - Part 2', 'plancurtail' ),
+	'description'   => __( 'Contains copy', 'plancurtail' ),
 ) );
 genesis_register_sidebar( array(
 	'id'            => 'lwm_donate_column_3',
-	'name'          => __( 'CTA/Donate Area - Third Third', 'plancurtail' ),
-	'description'   => __( 'Initial Build Coded 1/3 width', 'plancurtail' ),
+	'name'          => __( 'Survival Actions Area', 'plancurtail' ),
+	'description'   => __( 'Survival action content', 'plancurtail' ),
 ) );
 
 
