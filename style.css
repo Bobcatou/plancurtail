@@ -1112,6 +1112,7 @@ h2.site-description {
 .genesis-nav-menu .menu-item {
 	display: inline-block;
 	text-align: left;
+	float: left;
 }
 
 .genesis-nav-menu a {
@@ -1309,9 +1310,8 @@ li#menu-item-320 {
 
 .nav-primary .menu-item-317 a {
     border-left: medium none;
-    padding-left: 0;
+    padding-left: 10px;
 }
-
 
 
 
