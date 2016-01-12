@@ -1935,7 +1935,7 @@ h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles
 /* # White Paper Content Template
 ---------------------------------------- */
 
-.white-paper h3, h3#reply-title, #spinning-our-wheels h3, #green-tragedy-book h3 {
+.white-paper h3 {
    color: #0072bd;
    font-size: 2rem;
 
@@ -2125,22 +2125,25 @@ aside#genesis-sidebar-primary .widgettitle {
 /*#spinning-our-wheels h3 {
 	color: #0072bd;
 }*/
-#spinning-our-wheels p, #green-tragedy-book p {
+#spinning-our-wheels p, #green-tragedy-book p, #plan-c p {
 	margin-bottom: 5px;
 }
 
-#spinning-our-wheels h4, #green-tragedy-book h4 {
+#spinning-our-wheels h4, #green-tragedy-book h4, #plan-c h4 {
 	color: #0072bd;
 	font-size: 13px;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 }
 
-#spinning-our-wheels img, #green-tragedy-book img {
+#spinning-our-wheels img, #green-tragedy-book img, #plan-c img {
 	margin-bottom: 0;
 }
 
-
+h3#reply-title, #spinning-our-wheels h3, #green-tragedy-book h3, #plan-c h3 {
+   color: #0072bd;
+   font-size: 2rem;
+}
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
 input:focus::-webkit-input-placeholder { color:transparent; }
