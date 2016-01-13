@@ -1941,6 +1941,11 @@ h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles
 
 }
 
+.white_paper {
+	border-bottom: 1px dotted #515151;
+	padding-bottom: 40px;
+
+}
 .paper-writer {
     margin-top: 10px;
 }
@@ -1972,12 +1977,10 @@ h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles
 	margin-top: 10px;
 }
 
-.white_paper {
-	border-bottom: 1px dotted #515151;
-	padding-bottom: 40px;
 
+p.lwm-authors a:hover {
+	text-decoration: underline;
 }
-
 
 /*Pdf Button Styling*/
 .pdf_btn a {
