@@ -1881,7 +1881,7 @@ h3.subheads {
 }
 
 
-h3.history-titles, h3.car-presentation-titles, h3.food-articles {
+h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-reports {
     font-size: 1.7rem;
     padding: 10px 0 10px;
     border-bottom: 1px dotted #515151;
@@ -1902,11 +1902,24 @@ h3.housing-book-titles, h3.housing-book-titles a {
 }
 
 /*note selector from car too*/
-h3.housing-book-titles, h3.housing-book-titles a, h3.history-titles a, h3.car-presentation-titles a, .best-600 strong, .best-600-widget h3 a, h3.food-articles a  {
+h3.housing-book-titles,
+h3.housing-book-titles a,
+h3.history-titles a,
+h3.car-presentation-titles a,
+.best-600 strong,
+.best-600-widget h3 a,
+h3.food-articles a,
+h3.climate-reports a  {
 	color: #0072bd;
 }
 
-h3.housing-book-titles :hover, h3.housing-book-titles a:hover, h3.history-titles a:hover, h3.car-presentation-titles a:hover, .best-600-widget h3 a:hover, h3.food-articles a:hover  {
+h3.housing-book-titles :hover,
+h3.housing-book-titles a:hover,
+h3.history-titles a:hover,
+h3.car-presentation-titles a:hover,
+.best-600-widget h3 a:hover,
+h3.food-articles a:hover,
+h3.climate-reports a:hover  {
 	text-decoration: underline;
 }
 
