@@ -257,8 +257,6 @@ add_action( 'admin_init', 'remove_dashboard_meta' );
 
 
 
-
-
 //* Show custom menu in Footer
 //add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
 //function sk_custom_menu_in_footer() {
@@ -342,7 +340,6 @@ remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 //	return $menu;
 
 //}
-
 
 
 
