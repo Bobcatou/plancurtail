@@ -198,6 +198,16 @@ function rv_cpt_remove_post_info_genesis() {
 	}
 }
 
+//* Remove the post info function
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+
+
+//		remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+//		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+
+
+
+
 //* Footer Back to Home Link
 add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 	function lwm_back_to_home () {
@@ -250,9 +260,6 @@ function remove_dashboard_meta() {
 
         }
 add_action( 'admin_init', 'remove_dashboard_meta' );
-
-
-
 
 
 
@@ -412,8 +419,6 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Featured Area - Food', 'plancurtail' ),
 	'description'   => __( 'Section for Featured Article', 'plancurtail' ),
 ) );
-
-
 
 
 
