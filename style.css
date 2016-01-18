@@ -726,7 +726,7 @@ th {
 }
 
 .lwm-archives {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -2021,6 +2021,10 @@ p.lwm-authors a:hover {
 	margin: 20px 0;
 }
 
+
+.white_paper img {
+	margin-top: 5px;
+}
 
 /* # Category and Blog Area
 ---------------------------------------- */
