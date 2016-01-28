@@ -147,7 +147,7 @@ add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
 *URL for custom logo
 **/
 function my_loginURL() {
-    return 'http://wpbryan.com/development/plancurtail';
+    return 'http://lwmclient1.com';
 }
 add_filter('login_headerurl', 'my_loginURL');
 
@@ -211,7 +211,7 @@ remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 //* Footer Back to Home Link
 add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 	function lwm_back_to_home () {
-	echo '<a href="http://localhost/plancurtail.dev"><div class="lwm_back_to_home_block">';
+	echo '<a href="http://localhost/plancurtail-v2.dev"><div class="lwm_back_to_home_block">';
 	echo '<div class="wrap interior_bth">';
 	echo '<div class="back_to_home">';
 	echo '<h4>Back to Home page</h4>';
