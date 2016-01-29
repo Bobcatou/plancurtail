@@ -2130,6 +2130,8 @@ main#genesis-content.content h2 {
 
 .related-sites li {
 	border-bottom: 1px dotted #515151;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 .related-sites li a {
