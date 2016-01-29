@@ -1749,7 +1749,9 @@ nav.nav-header {
 }
 
 
-
+.lwm_feat_blog2.one-third, .lwm_feat_blog3.one-third, .lwm_feat_blog1.one-third {
+    min-height: 512px;
+}
 
 #click-to-enlarge img {
 	margin: 4px 5px 0 0;
