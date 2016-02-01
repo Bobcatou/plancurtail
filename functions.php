@@ -167,7 +167,7 @@ add_filter('gettext', 'howdy_message', 10, 3);
 /**
 *Used for the Author Image or Other on White Pages PDF page
 **/
-add_image_size( 'For-White-Paper', 150, 9999 ); //150 pixels wide (and unlimited height)
+add_image_size( 'For-White-Paper', 150, 400 ); //150 pixels wide (and unlimited height)
 
 
 /*Adds New Images to Media Library*/
