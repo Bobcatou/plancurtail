@@ -2151,10 +2151,10 @@ main#genesis-content.content h2 {
 	text-decoration: underline;
 }
 
-.related-sites li a:visited {
+/*.related-sites li a:visited {
 	color: #515151;
 }
-
+*/
 aside#genesis-sidebar-primary .widgettitle {
 	font-size: 2.4rem;
 	color: #047940;
