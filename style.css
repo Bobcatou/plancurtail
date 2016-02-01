@@ -1978,6 +1978,14 @@ h3.climate-reports a:hover  {
     margin-top: 10px;
 }
 
+
+.lwm-feature-author-image {
+    float: left;
+    margin-right: 20px;
+}
+
+
+
 .click-to-download a:before {
 	content: url(images/download-icon-blue.png);
 	display:block;
