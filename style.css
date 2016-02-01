@@ -1965,6 +1965,7 @@ h3.climate-reports a:hover  {
 .white_paper {
 	border-bottom: 1px dotted #515151;
 	padding-bottom: 40px;
+	overflow: auto;
 
 }
 .paper-writer {
