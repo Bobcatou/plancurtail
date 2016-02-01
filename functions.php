@@ -164,6 +164,33 @@ function howdy_message($translated_text, $text, $domain) {
 }
 add_filter('gettext', 'howdy_message', 10, 3);
 
+/**
+*Used for the Author Image or Other on White Pages PDF page
+**/
+add_image_size( 'For-White-Paper', 150, 9999 ); //150 pixels wide (and unlimited height)
+
+
+/*Adds New Images to Media Library*/
+
+
+function display_custom_image_sizes( $sizes ) {
+  global $_wp_additional_image_sizes;
+  if ( empty($_wp_additional_image_sizes) )
+    return $sizes;
+
+  foreach ( $_wp_additional_image_sizes as $id => $data ) {
+    if ( !isset($sizes[$id]) )
+      $sizes[$id] = ucfirst( str_replace( '-', ' ', $id ) );
+  }
+
+  return $sizes;
+}
+add_filter( 'image_size_names_choose', 'display_custom_image_sizes' );
+
+
+
+
+
 
 
 
