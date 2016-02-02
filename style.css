@@ -1882,7 +1882,7 @@ section#black-studio-tinymce-6 img {
 	margin-right: 0px;
 }
 
-/*Tightens up text around image*/
+/*Tightens up text around image with caption on category page*/
 .lwm-pc-categories .wp-caption.alignleft {
 	margin: 0;
 }
