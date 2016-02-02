@@ -1882,6 +1882,10 @@ section#black-studio-tinymce-6 img {
 	margin-right: 0px;
 }
 
+/*Tightens up text around image*/
+.lwm-pc-categories .wp-caption.alignleft {
+	margin: 0;
+}
 
 
 h3.subheads {
