@@ -2168,9 +2168,6 @@ main#genesis-content.content h2 {
 	text-decoration: underline;
 }
 
-/*.related-sites li a:visited {
-	color: #515151;
-}
 */
 aside#genesis-sidebar-primary .widgettitle {
 	font-size: 2.4rem;
@@ -2200,6 +2197,19 @@ h3#reply-title, #spinning-our-wheels h3, #green-tragedy-book h3, #plan-c h3 {
    color: #0072bd;
    font-size: 2rem;
 }
+
+
+h3.widgettitle.widget-title {
+	margin-bottom: 10px;
+}
+
+.sidebar .widget {
+	margin-bottom: 0;
+}
+
+
+
+
 /* Search Button Magnifying Glass styling
 ---------------------------------- */
 input:focus::-webkit-input-placeholder { color:transparent; }
@@ -2276,16 +2286,6 @@ form.search-form input {
 }
 
 
-/* # Right Sidebar stying
--------------------------------------------- */
-
-h3.widgettitle.widget-title {
-	margin-bottom: 10px;
-}
-
-.sidebar .widget {
-	margin-bottom: 0;
-}
 
 /* # Login page stying
 -------------------------------------------- */
