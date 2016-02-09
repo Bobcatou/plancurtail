@@ -2276,6 +2276,17 @@ form.search-form input {
 }
 
 
+/* # Right Sidebar stying
+-------------------------------------------- */
+
+h3.widgettitle.widget-title {
+	margin-bottom: 10px;
+}
+
+.sidebar .widget {
+	margin-bottom: 0;
+}
+
 /* # Login page stying
 -------------------------------------------- */
 
