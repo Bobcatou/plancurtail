@@ -276,6 +276,11 @@ add_filter( 'term_description', 'shortcode_unautop');
 add_filter( 'term_description', 'do_shortcode' );
 
 
+// Enables Blogroll or Links
+
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+
+
 
 /**
  * Removes Dashboard Widgets
