@@ -1901,14 +1901,37 @@ section#black-studio-tinymce-6 img {
 
 h3.subheads {
 	padding-bottom: 5px;
+    margin-top: 20px;
+
 }
 
 
-h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-reports, h3.cuba-articles {
+h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-reports, h3.cuba-articles, h3.food-articles, h3.goods-articles, h3.services-articles {
     font-size: 1.7rem;
     padding: 10px 0 10px;
     border-bottom: 1px dotted #515151;
 }
+
+
+
+/* Food Page
+---------------------------------------- */
+
+h3.food-articles, h3.goods-articles, h3.services-articles {
+    display: inline-block;
+    width: 45%;
+    margin-right: 4%;
+}
+
+
+/* Contact Page
+---------------------------------------- */
+/*separates fields a little more*/
+li.gfield {
+	margin-top: 20px;
+}
+
+
 
 /*Housing Page
 ---------------------------------------- */
