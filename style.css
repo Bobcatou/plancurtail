@@ -605,7 +605,7 @@ th {
 
 .content-sidebar .content {
 /*	border-right: 1px dotted #515151; */
-	padding-right: 40px;
+/*	padding-right: 40px; */
 }
 
 
@@ -2617,7 +2617,14 @@ form.search-form input {
 }
 
 
+@media only screen and (min-width: 1024px) {
 
+	.content-sidebar .content-sidebar-wrap .content {
+		border-right: 1px dotted #515151; 
+	    padding-right: 5.5rem;
+	}
+
+}
 
 
 
