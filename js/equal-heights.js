@@ -1,9 +1,11 @@
 jQuery(document).ready(function($) {
+    if (window.innerWidth > 1023) {
+    
+        var highestCol = Math.max( $('.content-sidebar .content-sidebar-wrap .content').height(), $('.content-sidebar .sidebar-primary').height() );
+        $('.content-sidebar .content-sidebar-wrap .content, .content-sidebar .sidebar-primary').height(highestCol);
 
-	if (window.innerWidth > 1023) {
-		var highestCol = Math.max( $('.content-sidebar .content-sidebar-wrap .content').height(), $('.content-sidebar .sidebar-primary').height() );
+        var highestBetweenTitleLeftandTitleRight = Math.max( $('.titles-left').height(), $('.titles-right').height() );
+        $('.titles-left, .titles-right').height(highestBetweenTitleLeftandTitleRight);
 
-		$('.content-sidebar .content-sidebar-wrap .content, .content-sidebar .sidebar-primary').height(highestCol);
-	}
-
+    }
 });
