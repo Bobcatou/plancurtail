@@ -2158,6 +2158,14 @@ a.fancybox.image {
 	margin-top: -7px;
 }
 
+
+#pat-began h4, #pat-began p {
+    display: inline-block;
+}
+
+
+
+
 /* # Footer Area 
 ------------------ */
 .footer-widgets .wrap {padding: 0;}
