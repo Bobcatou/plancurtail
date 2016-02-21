@@ -2190,7 +2190,9 @@ div#about-us-top {
 }
 
 
-
+#about-us-top .wp-caption-text {
+	font-weight: 600;
+}
 
 
 
