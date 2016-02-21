@@ -2163,8 +2163,64 @@ a.fancybox.image {
     display: inline-block;
 }
 
+.stories {
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px dotted #515151;
+    padding-top: 20px;
+}
+
+div#about-us-top {
+    overflow: hidden;
+}
+
+#about-us-top h5 {
+	line-height: 2.5rem;
+	font-style: italic;
+	background-color: #f4f2f1;
+	padding: 0px 25px;
+
+    
+}
+
+.post-58 .entry-title {
+	background-color: #f4f2f1;
+	padding: 10px 25px 0;
+
+}
 
 
+
+
+
+
+#pat-faith-intro {
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 8px;
+    background-color: #f4f2f1;
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    padding: 10px 20px 25px;
+
+}
+
+#pf-intro {
+    margin-top: 83px;
+}
+
+#pat-faith-bios {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+ }   
+    
+ #pat-faith-bios .wp-caption-text {
+    text-align: center;
+}   
+   
 
 /* # Footer Area 
 ------------------ */
