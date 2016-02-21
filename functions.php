@@ -295,6 +295,24 @@ add_action( 'admin_init', 'remove_dashboard_meta' );
 
 
 
+/** Force full width layout on all archive pages*/
+add_filter( 'genesis_pre_get_option_site_layout', 'full_width_layout_archives' );
+/**
+* @author Brad Dalton
+* @link http://wpsites.net/web-design/change-layout-genesis/
+*/
+function full_width_layout_archives( $opt ) {
+if ( is_archive() ) {
+    $opt = 'full-width-content'; 
+    return $opt;
+
+    } 
+
+
+}
+
+
+
 
 //* Show custom menu in Footer
 //add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
