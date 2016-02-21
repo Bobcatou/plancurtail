@@ -2143,7 +2143,12 @@ p.lwm-authors a:hover {
 	color: #0076be;
 }
 
-
+/* # Fancybox Plugin styling
+------------------ */
+div#fancybox-title {
+    background: #fff;
+    color: #515151;
+}
 
 a.fancybox.image {
    cursor: url(images/enlarge-icon.png), auto;
