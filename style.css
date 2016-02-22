@@ -2451,6 +2451,12 @@ form.search-form input {
 		margin-right: 0;
 	}
 
+	h2.site-description {
+		line-height: 22px;
+		font-size: 2rem;
+}
+
+
 }
 
 @media only screen and (max-width: 960px) {
