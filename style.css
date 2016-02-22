@@ -1743,8 +1743,34 @@ nav.nav-header {
     margin-top: 98px;
 }
 
-/* # NewCTA/DONATE Area 
+/* # Donate Page
 ----------------------------------- */
+form#give-form-202 {
+    margin: 52px 0 50px;
+    background: #f9f6e8;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.give-btn {
+	background: #0076be !important;
+}
+
+.give-currency-symbol {
+	color: #fff;
+	background: #0076be !important;
+}
+
+
+form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
+	background-color: #fff !important;
+}
+
+
+.donate-lower-statement .one-third {
+	width: 26.623932%;
+}
+
 
 /* # Borders for columns
 ------------------------- */
