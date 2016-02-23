@@ -1252,8 +1252,12 @@ h2.site-description {
 	text-decoration: none;
 	line-height: 1;
 	font-weight: 400;
-	border-left: 1px #fff solid;
+/*	border-left: 1px #fff solid; */
 	border-top: 5px solid #ccc;
+}
+
+.menu-item {
+	border-left: 1px #fff solid;
 }
 
 .nav-primary .genesis-nav-menu a:hover,
