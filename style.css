@@ -2458,7 +2458,14 @@ form.search-form input {
 		width: 250px;
 	}
 	
-	
+h2.site-description {
+    line-height: 25px;
+    font-size: 2.3rem;	
+}
+
+.genesis-nav-menu a {
+    padding: 8px 12px;
+}
 
 }
 
