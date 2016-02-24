@@ -2648,6 +2648,7 @@ h2.site-description {
 	.nav-primary .genesis-nav-menu.responsive-menu a:hover {
 		color: #fff;
 		text-align: center;
+		border-right: 1px #fff solid;
 	}
 
 	.genesis-nav-menu.responsive-menu .menu-item-has-children {
