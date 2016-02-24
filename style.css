@@ -2627,6 +2627,7 @@ h2.site-description {
 
 	.genesis-nav-menu.responsive-menu .menu-item {
 		margin: 0;
+		width: 100%;
 	}
 
 	.genesis-nav-menu.responsive-menu .menu-item:hover {
@@ -2646,6 +2647,7 @@ h2.site-description {
 	.nav-primary .genesis-nav-menu.responsive-menu a,
 	.nav-primary .genesis-nav-menu.responsive-menu a:hover {
 		color: #fff;
+		text-align: center;
 	}
 
 	.genesis-nav-menu.responsive-menu .menu-item-has-children {
