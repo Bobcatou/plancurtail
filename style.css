@@ -2607,6 +2607,9 @@ h2.site-description {
 		padding: 40px;
 	}
 
+
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -2722,6 +2725,32 @@ li#menu-item-321 {
     border-bottom: 5px solid #ccc;
 }
 
+.lwm-left-border, .lwm_feat_blog2.one-third, .lwm_feat_blog3.one-third {
+    border-left: none;
+    padding-left: 0;
+    
+    }
+section#black-studio-tinymce-18, section#search-3, section#black-studio-tinymce-19, section#black-studio-tinymce-16 {
+    float: none;
+    display:block;
+}
+
+h2.site-description {
+	text-align: center;
+	
+}
+
+h2.site-description br{
+	display: none;
+}
+
+.site-description {
+    margin-top: 15px;
+}
+
+dl.gallery-item {
+    margin-bottom: 0;
+}
 
 }
 
