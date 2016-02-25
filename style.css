@@ -2756,7 +2756,7 @@ dl.gallery-item {
 
 
 
-@media only screen and (max-width: 568px) {
+@media only screen and (max-width: 600px) {
 
 	.footer-widgets-1,
 	.footer-widgets-2,
@@ -2770,6 +2770,11 @@ dl.gallery-item {
 	.footer-widgets-3 {
 		margin-right: 0;
 	}
+
+.footer-widgets-1, .footer-widgets-2, .footer-widgets-3, .footer-widgets-4 {
+    padding: 0 5%;
+}
+
 
 }
 
