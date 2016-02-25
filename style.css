@@ -1947,7 +1947,7 @@ h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-repo
 /* Food Page
 ---------------------------------------- */
 
-h3.food-articles, h3.goods-articles, h3.services-articles {
+h3.food-articles {
     display: inline-block;
     width: 45%;
     margin-right: 4%;
