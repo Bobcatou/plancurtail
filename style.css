@@ -1936,7 +1936,7 @@ h3.subheads {
 }
 
 
-h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-reports, h3.cuba-articles, h3.cuba-interviews, h3.food-articles, h3.goods-articles, h3.services-articles {
+h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-reports, h3.cuba-articles, h3.food-articles, h3.goods-articles, h3.services-articles {
     font-size: 1.7rem;
     padding: 10px 0 10px;
     border-bottom: 1px dotted #515151;
@@ -1967,12 +1967,17 @@ li.gfield {
 ---------------------------------------- */
 
 
-.house-books, .best-600-widget {
+.house-books,
+.best-600-widget,
+h3.cuba-interviews-titles {
     border-bottom: 1px dotted #515151;
 
 }
 
-h3.housing-book-titles, h3.housing-book-titles a {
+h3.housing-book-titles,
+h3.housing-book-titles a, 
+h3.cuba-interviews-titles,
+h3.cuba-interviews-titles a  {
     font-size: 1.7rem;
     padding: 10px 0 10px;	
 }
@@ -1986,8 +1991,7 @@ h3.car-presentation-titles a,
 .best-600-widget h3 a,
 h3.food-articles a,
 h3.climate-reports a,
-h3.cuba-articles a,
-h3.cuba-interviews a  {
+h3.cuba-articles a  {
 	color: #0072bd;
 }
 
@@ -1998,8 +2002,7 @@ h3.car-presentation-titles a:hover,
 .best-600-widget h3 a:hover,
 h3.food-articles a:hover,
 h3.climate-reports a:hover,
-h3.cuba-articles a:hover,
-h3.cuba-interviews a:hover  {
+h3.cuba-articles a:hover  {
 	text-decoration: underline;
 }
 
