@@ -479,3 +479,8 @@ function sk_equal_heights() {
 		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0' );
 
 }
+
+
+
+
+
