@@ -2274,6 +2274,25 @@ main#genesis-content.content h2 {
 	padding-top: 20px;
 }
 
+
+/*Friends and Curtailers Widget Area
+---------------------------------- */
+	
+section#wp_views-3 h3 { 
+    color: #0076be;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+h3.curtailing-friends-titles {
+	font-size: 17px !important;
+	margin-top: 5px !important;
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #515151;
+}
+
+
 /* Sidebar styling
 ---------------------------------- */
 
