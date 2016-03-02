@@ -1942,6 +1942,10 @@ h3.history-titles, h3.car-presentation-titles, h3.food-articles, h3.climate-repo
     border-bottom: 1px dotted #515151;
 }
 
+/*Article, Presentations, etc list */
+.cat-titles-wrap {
+    overflow: hidden;
+}
 
 
 /*Cuba Test
