@@ -1944,8 +1944,8 @@ h3.climate-related-papers,
 h3.cuba-articles,
 h3.food-articles,
 h3.goods-articles,
-h3.services-articles,
-.climate-presentation-titles {
+h3.services-articles
+ 	{
     font-size: 1.7rem;
     padding: 10px 0 10px;
     border-bottom: 1px dotted #515151;
