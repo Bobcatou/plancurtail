@@ -1771,6 +1771,11 @@ form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
 }
 
 
+.donate-lower-statement, .donate-top {
+	overflow: hidden;
+}
+
+
 .donate-lower-statement .one-third {
 	width: 26.623932%;
 }
@@ -1944,7 +1949,8 @@ h3.climate-related-papers,
 h3.cuba-articles,
 h3.food-articles,
 h3.goods-articles,
-h3.services-articles
+h3.services-articles,
+h3.climate-presentation-titles
  	{
     font-size: 1.7rem;
     padding: 10px 0 10px;
@@ -1965,8 +1971,12 @@ h3.services-articles
 }
 
 */
+/* Cuba Page
+---------------------------------------- */
 
-
+.earth-island-widget h5 {
+	padding-bottom: 5px;
+}
 /* Food Page
 ---------------------------------------- */
 
@@ -2000,7 +2010,8 @@ h3.cuba-interviews-titles {
 h3.housing-book-titles,
 h3.housing-book-titles a, 
 h3.cuba-interviews-titles,
-h3.cuba-interviews-titles a  {
+h3.cuba-interviews-titles a,
+h3.climate-presentation-titles a  {
     font-size: 1.7rem;
     padding: 10px 0 10px;	
 }
@@ -2014,7 +2025,8 @@ h3.car-presentation-titles a,
 .best-600-widget h3 a,
 h3.food-articles a,
 h3.climate-reports a,
-h3.climate-related-papers,
+h3.climate-related-papers a,
+h3.climate-presentation-titles a,
 h3.cuba-articles a  {
 	color: #0072bd;
 }
@@ -2027,6 +2039,7 @@ h3.car-presentation-titles a:hover,
 .best-600-widget h3 a:hover,
 h3.food-articles a:hover,
 h3.climate-reports a:hover,
+h3.climate-presentation-titles a:hover,
 h3.cuba-articles a:hover  {
 	text-decoration: underline;
 }
@@ -2340,6 +2353,12 @@ h3.curtailing-friends-titles {
 .related-sites li a:hover {
 	text-decoration: underline;
 }
+
+
+h3.climate-related-papers {
+	margin-bottom: 0;
+}
+
 
 */
 aside#genesis-sidebar-primary .widgettitle {
