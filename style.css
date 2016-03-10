@@ -2232,6 +2232,11 @@ a.fancybox.image {
 /* # About Us Page
 ------------------ */
 
+
+#pat-faith-bios .wp-caption.alignleft	 {
+	margin: 0 15px 0 0;
+}
+
 #lwm_aboutUs .three-fourths {
 	margin-top: -7px;
 }
@@ -2352,7 +2357,8 @@ section#linkcat-53 {
 
 
 /*Passive House Trailer*/
-#black-studio-tinymce-35 h5 {
+#black-studio-tinymce-35 h5,
+#black-studio-tinymce-28 h5 {
 	padding-bottom: 10px;
 }
 
