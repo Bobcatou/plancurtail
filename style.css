@@ -2421,6 +2421,10 @@ h3#reply-title, #spinning-our-wheels h3, #green-tragedy-book h3, #plan-c h3 {
 }
 
 
+#plan-c h3 {
+	margin-bottom: 10px;
+}
+
 h3.widgettitle.widget-title {
 	margin-bottom: 10px;
 }
