@@ -2472,6 +2472,17 @@ form.search-form input {
 	height: 24px;
 }
 
+
+/* # Search Results Page
+-------------------------------------------- */
+.search header.entry-header {
+	background: #fff;
+	padding-left: 0px;
+}
+
+
+
+
 /* # Back to Home Bar
 -------------------------------------------- */
 
@@ -3035,3 +3046,40 @@ dl.gallery-item {
 
 }
 
+.search-content {
+	background-color: #fff;
+	padding: 40px;
+	margin-bottom: 40px;
+}
+
+.post-type {
+	border-bottom: 1px solid #ededed;
+	margin-bottom: 40px;
+}
+.post-type:last-child {
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+.post-type-heading {
+	font-size: 40px;
+	font-size: 4rem;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.search .content .entry {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 12px;
+}
+
+.search .content .entry-title {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+.search .content .entry-title a {
+	text-decoration: none;
+}
