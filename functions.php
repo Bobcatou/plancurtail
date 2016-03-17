@@ -94,6 +94,8 @@ function custom_scripts_styles_mobile_responsive() {
 //	return __( 'Next Page', CHILD_DOMAIN ) . g_ent( ' &raquo; ' );
 //}
 
+
+
 /**
  * Remove Genesis Page Templates
  *
@@ -397,7 +399,6 @@ remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 //	return $menu;
 
 //}
-
 
 
 
