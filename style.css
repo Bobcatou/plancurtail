@@ -1749,13 +1749,23 @@ nav.nav-header {
 
 /* # Donate Page
 ----------------------------------- */
-form#give-form-202 {
+.donate-middle {
     margin: 0 0 50px;
     background: #f9f6e8;
-    padding: 20px;
+    padding: 0px;
     border-radius: 5px;
+    overflow:hidden;
+    border:1px dotted #515151
 }
 
+.donate-middle .two-thirds {
+    padding: 0px 30px;
+    border-left: dotted 1px #515151;
+}
+
+.donate-middle .one-third.first {
+    padding: 20px 0 0 20px;
+}
 .give-btn {
 	background: #0076be !important;
 }
