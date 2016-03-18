@@ -1766,6 +1766,14 @@ nav.nav-header {
 .donate-middle .one-third.first {
     padding: 20px 0 0 20px;
 }
+
+.donate-middle h5 {
+    color: #0072bd;
+    margin-top: 20px;
+    }
+
+
+
 .give-btn {
 	background: #0076be !important;
 }
