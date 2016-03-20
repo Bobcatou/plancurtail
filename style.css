@@ -1871,6 +1871,14 @@ h2.survive {
 }
 
 
+/*Views styling to make the date or author darder*/
+
+
+.date-author-color {
+    display: inline-block;
+    color: #515151;
+}
+
 /*Color first sentences of first row elements*/
 
 .lwm_cta_donate_area strong {
