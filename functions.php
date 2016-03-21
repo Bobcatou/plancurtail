@@ -190,7 +190,16 @@ function display_custom_image_sizes( $sizes ) {
 add_filter( 'image_size_names_choose', 'display_custom_image_sizes' );
 
 
+/*
+ * GIVEWP Set the Donor's Choice checkbox to "off" by default
+ *
+ */
+ 
+add_filter('give_recurring_donors_choice_checked', 'set_recurring_checkbox_off');
 
+function set_recurring_checkbox_off(){
+	return '';
+}
 
 
 
@@ -477,11 +486,9 @@ genesis_register_sidebar( array(
 add_action( 'wp_enqueue_scripts', 'sk_equal_heights' );
 function sk_equal_heights() {
 
-		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0' );
+		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0', true );
 
 }
-
-
 
 
 
