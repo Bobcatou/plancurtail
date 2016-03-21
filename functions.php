@@ -191,7 +191,7 @@ add_filter( 'image_size_names_choose', 'display_custom_image_sizes' );
 
 
 /*
- * GIVEWP Set the Donor's Choice checkbox to "off" by default
+ * GIVEWP Set the Donor's Choice checkbox to "off" (unchecked) by default
  *
  */
  
