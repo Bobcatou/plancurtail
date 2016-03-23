@@ -459,7 +459,7 @@ input[type="search"]::-webkit-search-results-button {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-	line-height: 2;
+	line-height: 1.5;
 	margin-bottom: 40px;
 	width: 100%;
 }
@@ -1711,6 +1711,23 @@ p.must-log-in a {
 	padding: 0px 20px 0;
     }
 
+
+/*Views styling to make the date or author darder*/
+
+
+.date-author-color {
+    color: #515151;
+}
+/*
+.date-author-color:hover {
+	text-decoration: underline;
+}
+*/
+/*h3.history-titles:hover {
+	text-decoration: underline;
+}
+
+*/
 /* # Header
 ------------------ */
 /*
@@ -1871,13 +1888,7 @@ h2.survive {
 }
 
 
-/*Views styling to make the date or author darder*/
 
-
-.date-author-color {
-    display: inline-block;
-    color: #515151;
-}
 
 /*Color first sentences of first row elements*/
 
@@ -2047,14 +2058,18 @@ table#tablepress-1 h3  {
 }
 
 table#tablepress-1  {
-    background: #f9f6e8;
+/*    background: #f9f6e8; */
 
 }
 
+.tablepress td, .tablepress th {
+    padding: 0px 8px !important;
+    }
 
 
-
-
+td.column-2, td.column-4 {
+    text-align: right !important;
+}
 
 
 
