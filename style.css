@@ -1286,10 +1286,17 @@ h2.site-description {
 --------------------------------------------- */
 
 li#menu-item-321 {
-    border-right: 1px #fff solid; 
+/*    border-right: 1px #fff solid; */
     background: #e69127;
 /*    border-top:5px solid #ccc;*/
     }
+
+li#menu-item-924 {
+    border-right: 1px #fff solid; 
+    background: #e69127;	
+}
+
+
 
 li#menu-item-460 {
 	background: #85c440;
