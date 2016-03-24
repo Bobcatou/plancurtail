@@ -2633,6 +2633,21 @@ form.search-form input {
 
 
 
+/* # Equal Heights styling from https://sridharkatakam.com/adding-vertical-separator-lines-content-sidebars-magazine-pro/ Note .js changes. This is give complete borders.
+-------------------------------------------- */
+
+.content-sidebar-wrap {
+    overflow: hidden;
+}
+
+.content-sidebar-wrap .content, .content-sidebar-wrap .sidebar {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+
+
+
 /* # Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
