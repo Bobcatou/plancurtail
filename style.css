@@ -1861,6 +1861,12 @@ form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
 	width: 26.623932%;
 }
 
+/*Hides "Billing Address header*/
+.cc-address legend {
+	display: none;
+}
+
+
 
 /* # Borders for columns
 ------------------------- */
@@ -2052,6 +2058,7 @@ h3.climate-presentation-titles
 /*Article, Presentations, etc list */
 .cat-titles-wrap {
     overflow: hidden;
+    min-height: 365px;
 }
 
 
@@ -2133,7 +2140,8 @@ td.column-2, td.column-4 {
 
 h3.housing-book-titles,
 .best-600-widget,
-h3.cuba-interviews-titles {
+h3.cuba-interviews-titles,
+.creating-budget-widget {
     border-bottom: 1px dotted #515151;
 
 }
