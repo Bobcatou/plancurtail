@@ -1137,6 +1137,7 @@ h2.site-description {
 	text-decoration: underline;
 }
 
+
 .genesis-nav-menu .sub-menu {
 	left: -9999px;
 	opacity: 0;
@@ -1277,10 +1278,15 @@ h2.site-description {
 .nav-primary .genesis-nav-menu .sub-menu .current-menu-item > a {
 	color: #fff;
 /*	text-decoration: underline; */
-	border-top: 5px solid #eb612a;
-
-	
+	border-top: 5px solid #eb612a;	
 }
+
+.nav-primary .genesis-nav-menu .sub-menu a:hover {
+	color: #333;
+}
+
+
+
 
 /* ## Individual Menu characteristics
 --------------------------------------------- */
@@ -1449,6 +1455,39 @@ p.entry-meta {
 	background-color: #0072bd;
 	text-decoration: underline;
 }
+
+
+/* ## Types and Views Pagiination specific
+--------------------------------------------- */
+
+/*Styling for numbers*/
+.pnav-single ul li {
+    padding:0 2px;
+}
+
+.archive-pagination .pnav-single {
+    margin-top: 10px;
+}
+
+.wpv_page_current {
+	background: #0072bd;
+	text-decoration: underline;
+	padding: 10px 15px !important;
+	color: #fff;
+}
+
+
+.archive-pagination .pnav-single .entry-content ol, .entry-content ul {
+	margin-left: 0;
+}
+
+/*Styling for Next/Previous*/
+
+.wpv-filter-next-link {
+    float: right;
+}
+
+/*End Views Pagination styling*/
 
 /* ## Comments
 --------------------------------------------- */
@@ -2030,6 +2069,12 @@ h3.climate-presentation-titles
 .earth-island-widget h5 {
 	padding-bottom: 5px;
 }
+
+.earth-island-widget img.alignnone, .alignnone {
+	margin-bottom: 0;
+}
+
+
 /* Food Page
 ---------------------------------------- */
 
