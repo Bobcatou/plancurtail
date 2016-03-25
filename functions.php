@@ -499,6 +499,13 @@ function sk_equal_heights() {
 	}
 
 }
+/**
+ * Address Add-on to GiveWP field
+ *
+ * @description Adds standard Give address fields forms
+ *
+ */
+add_action( 'give_purchase_form_after_personal_info', 'give_default_cc_address_fields');
 
 
 
