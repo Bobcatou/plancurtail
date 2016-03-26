@@ -1837,7 +1837,7 @@ nav.nav-header {
 
 
 
-.give-btn {
+.give-btn, .give-recurring-donors-choice {
 	background: #0076be !important;
 }
 
@@ -1866,7 +1866,9 @@ form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
 	display: none;
 }
 
-
+.give-recurring-donors-choice label {
+	color: #fff;
+}
 
 /* # Borders for columns
 ------------------------- */
