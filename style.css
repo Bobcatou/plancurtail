@@ -2394,6 +2394,11 @@ a.fancybox.image {
     padding-top: 20px;
 }
 
+.stories h3 {
+    color: #0072bd;
+}
+
+
 div#about-us-top {
     overflow: hidden;
 }
