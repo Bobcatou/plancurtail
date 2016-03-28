@@ -1826,8 +1826,8 @@ nav.nav-header {
     border-right: dotted 1px #515151;
 }
 
-.donate-middle .one-third.first {
-    padding: 20px 0 0 20px;
+.donate-middle .one-third {
+    padding: 20px 20px 0 0;
 }
 
 .donate-middle h5 {
