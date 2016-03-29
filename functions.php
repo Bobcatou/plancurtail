@@ -509,3 +509,23 @@ add_action( 'give_purchase_form_after_personal_info', 'give_default_cc_address_f
 
 
 
+/**
+ * Change offline donation label
+ *
+ * @description Changes Offline donation to "Mail a Check" in the donation form.
+ *
+ */
+
+
+add_filter('give_payment_gateways', 'custom_offline_label');
+
+function custom_offline_label($gateways) {
+	$gateways['offline'] = array(
+		'admin_label'    => __('Offline Donation'),
+		'checkout_label' => __( 'Mail a Check', 'give' )
+	);
+
+    return $gateways;
+}
+
+
