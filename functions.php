@@ -240,9 +240,6 @@ function rv_cpt_remove_post_info_genesis() {
 remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 
 
-//		remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-//		remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
-
 
 
 
@@ -325,41 +322,6 @@ if ( is_archive() ) {
 
 
 
-//* Show custom menu in Footer
-//add_action( 'genesis_footer', 'sk_custom_menu_in_footer', 5 );
-//function sk_custom_menu_in_footer() {
-
-//	$class = 'menu genesis-nav-menu menu-footer';
-
-//	$args = array(
-//		'menu'           => 'Footer Menu', // Enter name of your custom menu here
-//		'container'      => '',
-//		'menu_class'     => $class,
-//		'echo'           => 0,
-//		'depth'           => 1,
-//	);
-
-//	$nav = wp_nav_menu( $args );
-
-//	$nav_markup_open = genesis_markup( array(
-//		'html5'   => '<nav %s>',
-//		'xhtml'   => '<div id="nav">',
-//		'context' => 'nav-footer',
-//		'echo'    => false,
-//	) );
-//	$nav_markup_open .= genesis_structural_wrap( 'menu-footer', 'open', 0 );
-
-//	$nav_markup_close  = genesis_structural_wrap( 'menu-footer', 'close', 0 );
-//	$nav_markup_close .= genesis_html5() ? '</nav>' : '</div>';
-
-//	$nav_output = $nav_markup_open . $nav . $nav_markup_close;
-
-//	echo $nav_output;
-
-//}
-
-
-
 
 
 
@@ -374,41 +336,6 @@ if ( is_archive() ) {
 */
 remove_action( 'genesis_site_description', 'genesis_seo_site_description' );
 //add_action( 'genesis_before_header', 'child_seo_site_description', 5 );
-
-//function child_seo_site_description() {
-
-//echo '<h2 class="site-description">Our Mission: <em>To motivate and aid people in reducing their energy use and C0<sub>2</sub> emissions</em></h2>';
-
-//}
-
-
-//* Adds Searchbox to Primary menu
-
-//add_filter( 'wp_nav_menu_items', 'theme_menu_extras', 10, 2 );
-/**
- * Filter menu items, appending either a search form or today's date.
- *
- * @param string   $menu HTML string of list items.
- * @param stdClass $args Menu arguments.
- *
- * @return string Amended HTML string of list items.
- */
-//function theme_menu_extras( $menu, $args ) {
-
-	//* Change 'primary' to 'secondary' to add extras to the secondary navigation menu
-//	if ( 'primary' !== $args->theme_location )
-//		return $menu;
-
-	
-//	ob_start();
-//	get_search_form();
-//	$search = ob_get_clean();
-//	$menu  .= '<li class="right search">' . $search . '</li>';
-
-//	return $menu;
-
-//}
-
 
 
 
@@ -440,21 +367,6 @@ genesis_register_sidebar( array(
 
 
 
-//* CTA Widget section
-
-//* 1st Column
-//genesis_register_sidebar( array(
-//	'id'            => 'lwm_cta_left',
-//	'name'          => __( 'CTA - Left Side', 'plancurtail' ),
-//	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
-//) );
-//* 2nd Column
-//genesis_register_sidebar( array(
-//	'id'            => 'lwm_cta_right',
-//	'name'          => __( 'CTA - Right Side', 'plancurtail' ),
-//	'description'   => __( 'Initial Build Coded 1/2 width', 'plancurtail' ),
-//) );
-
 
 
 
@@ -480,15 +392,6 @@ genesis_register_sidebar( array(
 	'description'   => __( 'Section for Featured Article', 'plancurtail' ),
 ) );
 
-
-// Enqueuing Equal heights jQuery for Content and Primary Sidebar (with Content-Sidebar as the default layout in Genesis settings)
-
-//add_action( 'wp_enqueue_scripts', 'sk_equal_heights' );
-//function sk_equal_heights() {
-//
-//		wp_enqueue_script( 'equalheights_script', get_stylesheet_directory_uri() . '/js/equal-heights.js', array('jquery'), '1.0.0', //true );
-
-//}
 
 
 add_action( 'wp_enqueue_scripts', 'sk_equal_heights' );
