@@ -1589,6 +1589,12 @@ li.comment {
 
 }
 
+
+ul.xoxo.blogroll li {
+	margin-bottom: 2px;
+	padding-bottom: 2px;
+}
+
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2041,10 +2047,9 @@ h3.cuba-articles,
 h3.food-articles,
 h3.goods-articles,
 h3.services-articles,
-h3.climate-presentation-titles
- 	{
+h3.climate-presentation-titles {
     font-size: 1.7rem;
-    padding: 10px 0 10px;
+    padding: 7px 0 7px;
     border-bottom: 1px dotted #515151;
 }
 
@@ -2154,7 +2159,7 @@ h3.cuba-interviews-titles,
 h3.cuba-interviews-titles a,
 h3.climate-presentation-titles a  {
     font-size: 1.7rem;
-    padding: 10px 0 10px;	
+    padding: 7px 0 7px;	
 }
 
 /*note selector from car too*/
@@ -2705,7 +2710,15 @@ form.search-form input {
     padding-bottom: 99999px;
 }
 
+/*404 page
+-------------------------------------------- */
+#lwm-404 {
+	height: 500px;
+}
 
+.sticky.footer-widgets {
+	width: 100%;
+}
 
 
 /* # Media Queries
