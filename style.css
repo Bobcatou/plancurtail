@@ -706,7 +706,9 @@ th {
 	margin-bottom: 10px;
 	padding: 10px 20px 25px;
 }
-
+.archive-description {
+	padding-bottom: 5px;
+}
 
 /*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
 .lwm-pc-categories strong, .paper-desc strong {
@@ -2663,6 +2665,7 @@ form.search-form input {
 	padding-top: 10px;
 	font-size: 14px;
 	line-height: 19px;
+	display: inline-block;
 }
 
 .back_to_home h4:hover {
