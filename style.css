@@ -1878,6 +1878,14 @@ form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
 	color: #fff;
 }
 
+
+.donate-top {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    padding-bottom: 20px;
+}
+
+
 /* # Borders for columns
 ------------------------- */
 
@@ -2309,18 +2317,6 @@ p.lwm-authors a:hover {
 	color: #00662b;
 }
 
-/*.feature_blog_widgets h3 {
-	font-size: 2rem;
-	text-align: left;
-	font-weight: 700;
-	min-height: 73px;
-	margin-bottom: 20px;
-    background: #e8e8e8;
-    padding: 6px 6px 6px 10px;
-
-}
-*/
-
 
 .feature_blog_widgets h2 {
     background: #e8e8e8 none repeat scroll 0 0;
@@ -2363,6 +2359,21 @@ p.lwm-authors a:hover {
 .lwm_feature_blog.block strong {
 	color: #0076be;
 }
+
+
+/* # Blog list page specific
+------------------ */
+.lwm-blog-page .archive-description {
+    height: 175px;
+}
+
+
+.lwm-blog-page img.alignright.wp-image-1046 {
+    margin: -163px 32px 24px 24px;
+}
+
+
+
 
 /* # Fancybox Plugin styling
 ------------------ */
@@ -2653,12 +2664,12 @@ form.search-form input {
 /* # Back to Home Bar
 -------------------------------------------- */
 
-.lwm_back_to_home_block {
+.interior_bth {
     background: #047940;
 
 }
 
-.back_to_home h4 {
+.back_to_home h4 a {
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
@@ -2668,13 +2679,13 @@ form.search-form input {
 	display: inline-block;
 }
 
-.back_to_home h4:hover {
+.back_to_home h4 a:hover {
 	color: #515151;
 }
 
 
 
-.back_to_home h4:before {
+.back_to_home h4 a:before {
 	content: url(images/back_to_icon_white.png);
 	display:block;
 	float: left;
