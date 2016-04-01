@@ -246,11 +246,11 @@ remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 //* Footer Back to Home Link
 add_action('genesis_before_footer', 'lwm_back_to_home', 5);
 	function lwm_back_to_home () {
-	echo '<a href="http://localhost/plancurtail-v2.dev"><div class="lwm_back_to_home_block">';
-	echo '<div class="wrap interior_bth">';
-	echo '<div class="back_to_home">';
-	echo '<h4>Back to Home page</h4>';
-	echo '</div></a>';
+	echo '<div class="interior_bth">';
+	echo '<div class="wrap back_to_home">';
+	echo '<div class="lwm_back_to_home_block">';
+	echo '<h4><a href="http://localhost/plancurtail-v2.dev">Back to Home page</a></h4>';
+	echo '</div>';
 	echo '</div>';
 	echo '</div>';
 
@@ -431,4 +431,12 @@ function custom_offline_label($gateways) {
     return $gateways;
 }
 
-
+//* Add custom body class to the head
+add_filter( 'body_class', 'sp_body_class' );
+function sp_body_class( $classes ) {
+	
+	if ( is_category( 'blog' ) )
+		$classes[] = 'lwm-blog-page';
+		return $classes;
+		
+}
