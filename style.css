@@ -1841,6 +1841,7 @@ nav.nav-header {
 .donate-middle h5 {
     color: #0072bd;
     margin-top: 20px;
+    line-height: 20px;
     }
 
 
@@ -1883,6 +1884,11 @@ form[id*=give-form] #give-final-total-wrap .give-donation-total-label {
     font-size: 2rem;
     line-height: 3.2rem;
     padding-bottom: 20px;
+}
+
+
+.other-ways-list ul {
+    margin-left: 40px;
 }
 
 
@@ -2369,11 +2375,17 @@ p.lwm-authors a:hover {
 
 
 .lwm-blog-page img.alignright.wp-image-1046 {
-    margin: -163px 32px 24px 24px;
+    margin: -185px 0px 24px 24px;
+}
+
+.lwm-blog-page h1 {
+	color: #fff;
 }
 
 
-
+.lwm-blog-page .archive-description {
+	background: #fff;
+}
 
 /* # Fancybox Plugin styling
 ------------------ */
