@@ -697,23 +697,6 @@ th {
 	margin-bottom: 20px;
 }
 
-.lwm-pc-categories, .archive-description,
-.author-box {
-	background-color: #f4f2f1;
-	font-size: 16px;
-	font-size: 1.6rem;
-	line-height: 1.6em;
-	margin-bottom: 10px;
-	padding: 10px 20px 25px;
-}
-.archive-description {
-	padding-bottom: 5px;
-}
-
-/*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
-.lwm-pc-categories strong, .paper-desc strong {
-	color: #0072bd;
-}
 
 
 .author-box-title {
@@ -1045,30 +1028,6 @@ h2.site-description {
 	line-height: 30px
 	
 }
-
-
-/*.header-image .site-title > a {
-	background: url(images/logo.png) no-repeat left;
-	float: left;
-	min-height: 60px;
-	width: 100%;
-}*/
-
-/*h2.site-description {
-	margin: 0;
-}
-
-.site-description {
-	font-size: 30px;
-	font-size: 2rem;
-	font-weight: 300;
-	line-height: 1;
-	width: 60%;
-	color: #047940;;
-	padding: 5px 10px;
-	float: right;
-}
-*/
 
 
 
@@ -1620,28 +1579,6 @@ ul.xoxo.blogroll li {
 }
 
 
-/* Old 4 footer widget with 1 being longer */
-
-/*.footer-widgets-2,
-.footer-widgets-3,
-.footer-widgets-4 {
-	width: 20%;*/ /* 264px / 1200px */
-/*	float: left;
-	line-height: 21px;
-}
-
-
-.footer-widgets-1 {
-	width: 31%;
-	float: left;
-}
-
-
-.footer-widgets-1,
-.footer-widgets-2,
-.footer-widgets-3 {
-	margin-right: 3%;*/ /* 48px / 1200px */
-/*}*/
 
 #genesis-footer-widgets h2, #genesis-footer-widgets h2 a {
 	color: #0076be;
@@ -1766,34 +1703,31 @@ p.must-log-in a {
     }
 
 
-/*Views styling to make the date or author darder*/
+.lwm-pc-categories, .archive-description,
+.author-box {
+	background-color: #f4f2f1;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.6em;
+	margin-bottom: 10px;
+	padding: 10px 20px 25px;
+}
+.archive-description {
+	padding-bottom: 5px;
+}
+
+/*adds blue to strong tag at beginning of paragraphs - Style added by LWM */
+.lwm-pc-categories strong, .paper-desc strong {
+	color: #0072bd;
+}
+
+
+/*Views styling to make the date or author darker*/
 
 
 .date-author-color {
     color: #515151;
 }
-/*
-.date-author-color:hover {
-	text-decoration: underline;
-}
-*/
-/*h3.history-titles:hover {
-	text-decoration: underline;
-}
-
-*/
-/* # Header
------------------- */
-/*
-section#black-studio-tinymce-17 {
-	float: right;
-	margin-left: 4px;
-}
-
-section#black-studio-tinymce-17 img {
-	margin: 0 4px;
-}
-*/
 
 
 
@@ -1828,22 +1762,6 @@ nav.nav-header {
     overflow:hidden;
     border:1px dotted #515151
 }
-/*.donate-middle .two-thirds {
-    padding: 0px 30px;
-    border-right: dotted 1px #515151;
-}
-
-.two-thirds.first {
-    padding: 20px;
-}
-
-
-
-
-.donate-middle .one-third {
-    padding: 20px 20px 0 0;
-}
-*/
 
 .donate-other-ways.one-third {
     border-left: 1px dotted #515151;
@@ -1868,7 +1786,6 @@ nav.nav-header {
 
 .donate-middle h5 {
     color: #0072bd;
-/*    margin-top: 20px; */
     line-height: 20px;
     }
 
@@ -1967,19 +1884,6 @@ h2.annual_co2, h2.first_step {
     color: #0076be;
 }
 
-/*
-h2.survive {
-	margin: 10px 0 0 0;
-	font-size: 1.9rem;
-	font-size: 19px;
-    font-weight: 400;
-    margin-bottom: 2px;
-    font-family: 'Open Sans', sans-serif;
-	line-height: 2.1rem;
-    line-height: 21px;
-
-}
-*/
 
 
 h2.survive {
@@ -2017,7 +1921,6 @@ section#black-studio-tinymce-6 img {
 
 
 .lwm_donate3 h3.widgettitle.widget-title {
-	/*margin: 15px 0px 10px 0px;*/
 	margin-top: 10px;
 }
 
@@ -2034,31 +1937,12 @@ section#black-studio-tinymce-6 img {
 
 
 
-.lwm_cta_donate_area.block.wrap {
- /*   margin-bottom: 10px; */
-
-}
-
 .feature_blog_widgets img {
 	float: left;
 	margin: 6px 15px 0 0;
 }
 
 
-	
-/* # CTA Area 
------------------- */
-/*.lwm_cta_block {
-    border-bottom: 1px solid #999; 
-    margin-bottom: 10px;
-}
-*/
-/*
-.cta_wrap .slogan {text-align: center; margin: 20px 0px;}
-.cta_wrap .slogan h2 {font-size: 46px;}
-
-.graphic-copy, .graphic-copy2 {display: table-cell; vertical-align: middle; height: 584px;}
-*/
 
 /* # Topic Category Page
 ---------------------------------------- */
@@ -2109,18 +1993,13 @@ h3.climate-presentation-titles {
 /*Article, Presentations, etc list */
 .cat-titles-wrap {
     overflow: hidden;
-    min-height: 365px;
+/*    min-height: 365px; */
 }
 
-
-/*Cuba Test
-.category-content {
-    height: 100%;
-    padding-bottom: 300px;
-    overflow: hidden;
-}
-
-*/
+/*keeps footer from moving on pagination in Plugin History section*/
+.plugin-wrap {
+    height: 466px;
+    }
 /* Cuba Page
 ---------------------------------------- */
 
@@ -2167,8 +2046,6 @@ table#tablepress-1 h3  {
 
 }
 
-table#tablepress-1  {
-/*    background: #f9f6e8; */
 
 }
 
@@ -2233,27 +2110,6 @@ h3.climate-presentation-titles a:hover,
 h3.cuba-articles a:hover  {
 	text-decoration: underline;
 }
-
-/*h3.housing-book-titles :visited, h3.housing-book-titles a:visited, h3.history-titles a:visited, h3.car-presentation-titles a:visited, .best-600-widget h3 a:visited  {
-	color: #515151;
-}
-
-*/
-
-.best-600-widget {
-	padding-bottom: 10px;
-}
-
-
-
-/*Papers and Presentations section of the Topic Pages*/
-
-.titles-left .one-half.first {
-/*    padding-right: 19px; */
- /*   border-right: 1px dotted #515151; */
-
-}
-
 
 
 /* # White Paper Content Template
@@ -2335,11 +2191,7 @@ p.lwm-authors a:hover {
 	margin: 20px 0;
 }
 
-/*
-.white_paper img {
-	margin-top: 5px;
-}
-*/
+
 /* # Category and Blog Area
 ---------------------------------------- */
 .feature_blog_widgets h3 a {
@@ -2597,16 +2449,13 @@ section#linkcat-53 {
 }
 
 
-*/
+
 aside#genesis-sidebar-primary .widgettitle {
 	font-size: 2.4rem;
 	color: #047940;
 	
 }
 
-/*#spinning-our-wheels h3 {
-	color: #0072bd;
-}*/
 #spinning-our-wheels p, #green-tragedy-book p, #plan-c p {
 	margin-bottom: 5px;
 }
@@ -2631,10 +2480,7 @@ section#black-studio-tinymce-9 {
     margin-bottom: 5px;
 }
 
-/*#plan-c h3 {
-	margin-bottom: 10px;
-}
-*/
+
 section#black-studio-tinymce-30 {
     padding-bottom: 5px;
 }
@@ -2646,6 +2492,9 @@ h3.widgettitle.widget-title {
 	margin-bottom: 0;
 }
 
+.best-600-widget {
+	padding-bottom: 10px;
+}
 
 
 
@@ -2770,9 +2619,6 @@ form.search-form input {
 	height: 500px;
 }
 
-.sticky.footer-widgets {
-	width: 100%;
-}
 
 
 /* # Media Queries
@@ -3319,7 +3165,7 @@ dl.gallery-item {
 
 .search .content .entry-title {
 	font-size: 20px;
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .search .content .entry-title a {
